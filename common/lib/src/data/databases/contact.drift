@@ -1,0 +1,6 @@
+import 'tables/contacts_table.dart';
+import 'tables/orders_contacts_table.dart';
+
+contactsByOrderId: SELECT c.* FROM contacts AS c
+    JOIN orders_contacts AS oc ON oc.contact_id = c.id
+    WHERE oc.order_id = :orderId;

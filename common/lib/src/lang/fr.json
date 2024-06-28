@@ -1,0 +1,1556 @@
+{
+  "ok": "Ok",
+  "direct_sale": "Vente à domicile",
+  "fair": "Foire",
+  "cancel": "Annuler",
+  "close": "Fermer",
+  "clear": "Supprimer",
+  "previous": "Précédent",
+  "next": "Suivant",
+  "back": "Retour",
+  "add": "Ajouter",
+  "finish": "Terminer",
+  "edit": "Modifier",
+  "reload": "Actualiser",
+  "confirm": "Confirmer",
+  "address": "Adresse",
+  "postal_code": "Code postal",
+  "city": "Ville",
+  "search": "Rechercher",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "take_a_picture": "Prendre une photo",
+  "choose_from_library": "Choisir dans la bibliothèque",
+  "yes": "Oui",
+  "no": "Non",
+  "error": "Erreur",
+  "submit": "Valider",
+  "name": "Nom",
+  "and": "et",
+  "is_default": "Définir comme par défaut",
+  "unit": {
+    "FOR": "Forfait"
+  },
+  "version": "Version",
+  "warning": "Attention",
+  "by_default": "Par défaut",
+  "customer_type_title": "Type",
+  "customer_type_individual": "Particulier",
+  "customer_type_professional": "Professionnel",
+  "project_status_in_progress": "En cours",
+  "project_status_validated": "Validé",
+  "project_status_cancelled": "Annulé",
+  "customer_address": "Adresse",
+  "customer_infos": "Informations Client",
+  "customer_location_distance": "à {distance}",
+  "civility_madam": "Madame",
+  "civility_mister": "Monsieur",
+  "civility_society": "Société",
+  "civility_abbreviation_mister": "M.",
+  "civility_abbreviation_madam": "Mme.",
+  "civility_abbreviation_society": "",
+  "contacts": "Contacts",
+  "contact_civility": "Civilité",
+  "contact_last_name": "Nom",
+  "contact_first_name": "Prénom",
+  "contact_phone": "Téléphone",
+  "contact_mobile_phone": "Mobile",
+  "contact_email": "E-mail",
+  "contact_last_name_is_empty": "Le nom est obligatoire.",
+  "contact_first_name_is_empty": "Le prénom est obligatoire.",
+  "contact_phone_is_empty": "Le téléphone est obligatoire.",
+  "contact_phone_is_invalid": "Le téléphone est invalide, il doit être au format 0123456789 ou +33123456789.",
+  "contact_mobile_phone_is_invalid": "Le téléphone mobile est invalide, il doit être au format 0123456789 ou +33123456789.",
+  "contact_email_is_empty": "L'email est obligatoire.",
+  "contact_email_is_invalid": "L'email est invalide.",
+  "contact_remove": "Supprimer le contact",
+  "contact_remove_errors": "Le contact ne peut pas être supprimé car il est rattaché sur un ou plusieurs projets.",
+  "contact_add": "Ajouter un contact",
+  "contact_edit": "Modifier un contact",
+  "form_required": "Obligatoire",
+  "form_multiple_errors": "Plusieurs champs sont invalides.",
+  "error_title": "Erreur",
+  "error_user-not-found": "Utilisateur introuvable",
+  "error_wrong-password": "Mot de passe incorrect",
+  "login_title": "Mon compte",
+  "login_submit": "Se connecter",
+  "login_email_input_label": "Email",
+  "login_password_input_label": "Mot de passe",
+  "login_forgot_password": "Mot de passe oublié ?",
+  "home_title": "Accueil",
+  "home_create_project": "Créer un nouveau projet",
+  "home_pictures": "Photos",
+  "home_access_media": "Accéder aux médias",
+  "home_selected_agency": "Agence sélectionnée",
+  "home_selected_fair": "Foire sélectionnée",
+  "home_quick_access": "Accès rapide",
+  "home_annual_visits": "Visites annuelles",
+  "home_annual_visits_reminder": "Rappel",
+  "home_customer_list": "Liste des clients",
+  "home_customer_list_visit": "Consultez",
+  "home_catalog": "Book vendeur",
+  "home_catalog_view": "Visualisez",
+  "home_services": "Prestations",
+  "home_services_view": "Visualisez",
+  "home_account_dialog_title": "Compte",
+  "home_account_dialog_show_email_in_order_form": "Afficher mon email (devis, bc)",
+  "home_account_dialog_show_phone_in_order_form": "Afficher mon téléphone (devis, bc)",
+  "home_account_dialog_direct_sale": "Vente à domicile",
+  "home_account_dialog_about": "À propos",
+  "home_account_dialog_logout": "Déconnexion",
+  "home_logout_dialog_title": "Se déconnecter",
+  "home_logout_dialog_content": "Voulez-vous vraiment vous déconnectez de l’application ?",
+  "home_create_project_dialog_title": "Nouveau projet",
+  "home_create_project_dialog_select_type": "Choisissez le type de projet.",
+  "home_create_project_dialog_create_customer": "Créez la fiche client.",
+  "home_create_project_dialog_customer_name_placeholder": "Nom du client",
+  "home_create_project_dialog_contacts": "Ajoutez un contact pour le suivi des chantiers.",
+  "home_create_project_dialog_add_contact": "Ajouter un contact",
+  "home_create_project_dialog_edit_contact": "Modifier un contact",
+  "customer": {
+    "error_infos": {
+      "label": "Erreur configuration des clients",
+      "content": "Certaines informations du client ne permettent pas de faire une vente (informations manquantes ou invalides)",
+      "content_2": "Merci de corriger ces informations avant de faire la vente.",
+      "email_empty": "- Adresse email manquante",
+      "phone_empty": "- Numéro de téléphone manquant",
+      "email_invalid": "- Adresse email invalide",
+      "phone_invalid": "- Numéro de téléphone invalide"
+    },
+    "duplicate": {
+      "title": "Doublon fiche client",
+      "info": "Une fiche client existe déjà avec au moins une des informations suivantes : numéro de téléphone, e-mail, adresse.\n\nLa création de ce client peut entrainer un doublon dans le fichier, confirmez vous cette création ?",
+      "customers": "Liste des fiches client",
+      "confirmation-modal": {
+        "title": "Confirmer la création",
+        "content": "Voulez-vous vraiment créer ce client ?"
+      },
+      "cancel": "Annuler la création de la fiche"
+    },
+    "notes": {
+      "no-data-found": "Aucune note trouvée",
+      "create": {
+        "title": "Créer une note",
+        "submit-button": "Créer",
+        "confirm-create": "Une note a été créée."
+      },
+      "edit": {
+        "title": "Modifier une note",
+        "submit-button": "Modifier",
+        "confirm-update": "Une note a été modifiée."
+      },
+      "delete": {
+        "title": "Supprimer une note",
+        "submit-button": "Supprimer",
+        "dialog-content": "Voulez-vous vraiment supprimer la note {title} ?",
+        "confirm-delete": "Une note a été supprimée."
+      },
+      "placeholder": {
+        "title": "Titre de la note",
+        "note": "Note"
+      }
+    },
+    "documents": {
+      "quote_history": "Historique des devis",
+      "label": "Documents"
+    }
+  },
+  "account": {
+    "title": "Compte",
+    "password": "Mot de passe",
+    "agency": "Agence",
+    "agencies": "Agences @:brand_name",
+    "fair": "Foires",
+    "load_data": "Chargement des données ...",
+    "infos": {
+      "title": "Informations du compte",
+      "name": "Nom",
+      "registration-number": "N° Matricule",
+      "phone": "N° Téléphone",
+      "email": "Adresse email",
+      "id": "Identifiant"
+    },
+    "edit-password": {
+      "title": "Modifier le mot de passe",
+      "current": "Actuel",
+      "new": "Nouveau",
+      "confirm": "Confirmer",
+      "submit-button": "Modifier"
+    }
+  },
+  "customer_list": {
+    "title": "Liste clients",
+    "header": {
+      "name": "NOM",
+      "address": "ADRESSE",
+      "postal_code": "CODE POSTAL",
+      "city": "VILLE",
+      "phone": "TÉLÉPHONE"
+    },
+    "location_disabled": "La localisation est nécessaire pour afficher la carte.",
+    "filters": {
+      "my_customers": "Mes clients",
+      "other_customers": "Autres clients"
+    }
+  },
+  "services_search": {
+    "title": "Recherche de prestations",
+    "header": {
+      "family": "Catégorie",
+      "sub_family": "Sous-catégorie",
+      "service": "Prestations"
+    }
+  },
+  "customer_label": "Client",
+  "rep_label": "Commercial",
+  "signature_label": "Signature",
+  "customer_view_title": "Fiche client",
+  "customer_view_edit_title": "Modifier les informations",
+  "customer_view_section_projects": "Projets",
+  "customer_view_section_notes": "Notes",
+  "customer_view_section_documents": "Documents",
+  "customer_view_maps_street_view": "Vue de la rue",
+  "customer_view_edit_contact_title": "Modifier les informations",
+  "business_monitoring_title": "Suivi commercial",
+  "library_title": "Bibliothèque",
+  "search_title": "Recherche",
+  "representative_appraisals_title": "Évaluations",
+  "docusign": {
+    "log": {
+      "envelope_created": {
+        "title": "Enveloppe créée",
+        "description": "L'enveloppe a été créée avec succès."
+      },
+      "envelope_opened": {
+        "title": "Enveloppe ouverte",
+        "description": "L'enveloppe a été ouverte."
+      },
+      "envelope_signed": {
+        "title": "Enveloppe signée",
+        "description": "L'enveloppe a été signée."
+      },
+      "envelope_completed": {
+        "title": "Enveloppe complétée",
+        "description": "L'enveloppe a été complétée. Tous les signataires ont signé."
+      },
+      "envelope_deleted": {
+        "title": "Enveloppe supprimée",
+        "description": "L'enveloppe a été supprimée."
+      },
+      "envelope_signature_navigation": {
+        "title": "Changement de page",
+        "description": "Le signataire a changé de page lors de la signature."
+      },
+      "envelope_authentication": {
+        "title": "Authentification",
+        "description": "Etape d'authentification avant d'accéder à l'enveloppe."
+      },
+      "random_navigation": {
+        "title": "Navigation aléatoire",
+        "description": "Navigation aléatoire dans Docusign."
+      },
+      "webview_closed": {
+        "title": "Fenêtre fermée",
+        "description": "La fenêtre de signature a été fermée."
+      },
+      "navigation_error": {
+        "title": "Erreur de navigation",
+        "description": "Erreur de navigation dans Docusign."
+      }
+    }
+  },
+  "project": {
+    "current": "Projets en cours",
+    "list": {
+      "signed_at": "Date de signature",
+      "install_at": "Date de pose souhaitée",
+      "order_at": "Date de commande",
+      "payment_method": "Mode de paiement",
+      "representatives": "Commerciaux",
+      "services": "Prestations",
+      "total": "Montant global"
+    },
+    "view": {
+      "title": "Projet du {date}",
+      "company_presentation": "Présentation de l'entreprise",
+      "data": {
+        "meeting_origin": "Source du rendez-vous",
+        "house_age": "Âge de la maison",
+        "is_pro_premise": "Local pro",
+        "edit_title": "Modifier les informations"
+      },
+      "status": "Etat",
+      "signed_status": "Signé",
+      "date": "Date",
+      "media": {
+        "title": "Média"
+      },
+      "services": {
+        "title": "Prestations",
+        "description": "Préparation du devis"
+      },
+      "street_view": {
+        "title": "Vue de la rue",
+        "description": "Vue de la rue du projet"
+      },
+      "order_form": {
+        "title": "Bon de commande",
+        "description": "Visualisation et envoie"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Visualisation des documents finis"
+      },
+      "site_sheet": {
+        "title": "Fiche de préparation de chantier",
+        "description": ""
+      }
+    },
+    "add": {
+      "title": "Ajouter un projet"
+    },
+    "errors": {
+      "not-found": "Le projet n'a pas été trouvé ou n'existe plus."
+    }
+  },
+  "media": {
+    "title": "Média"
+  },
+  "services": {
+    "title": "Prestations",
+    "roofing": "Toiture",
+    "facade": "Façade",
+    "energy": "Énergie",
+    "insulation": "Isolation",
+    "options": {
+      "title": "Options",
+      "option1": "Option 1",
+      "option2": "Option 2"
+    },
+    "add_dialog": {
+      "add": "Ajouter",
+      "reduced_vat": "TVA réduite",
+      "tax": "TVA",
+      "quantity": "Quantité",
+      "unit": "Unité",
+      "options": "Options",
+      "option_label": "Choisissez l'option",
+      "option1_label": "1ère option",
+      "option2_label": "2ème option",
+      "package_unit": "FOR",
+      "total": "Total TTC",
+      "price_without_vat": "Prix HT",
+      "price_with_vat": "Prix TTC",
+      "confirm_add": "Une prestation a été ajoutée au panier.",
+      "no_energy_related_error": "Une prestation de catégorie Energie ne peut être ajoutée avec une prestation d'autres catégories.",
+      "no_energy_non_related_error": "Une prestation de catégorie autre que Energie ne peut être ajoutée avec une prestation de catégorie Energie."
+    }
+  },
+  "rep": {
+    "error_infos": {
+      "label": "Erreur configuration du compte",
+      "content": "Certaines informations sur le compte ne permettent pas d'utiliser la tablette (informations manquantes ou invalides)",
+      "content_2": "Merci de vous rapprocher de votre secrétaire afin que le compte soit corrigé dans SAGE.",
+      "content_with_agency": "Certaines informations sur votre compte pour l'agence {agency} ne permettent pas d'utiliser la tablette (informations manquantes ou invalides)",
+      "content_with_agency_2": "Merci de vous rapprocher de votre secrétaire afin que votre compte soit corrigé dans SAGE.",
+      "email_empty": "- Adresse email manquante",
+      "phone_empty": "- Numéro de téléphone manquant",
+      "email_invalid": "- Adresse email invalide",
+      "email_invalid_for_brand": "Erreur - Vous devez disposer d'une adresse mail @:brand_name pour utiliser cette option",
+      "phone_invalid": "- Numéro de téléphone invalide"
+    },
+    "refresh": "Actualiser"
+  },
+  "quote": {
+    "make": {
+      "title": "Générer un devis",
+      "description": "Génération du devis",
+      "display-button": "Visualiser",
+      "send-button": "Envoyer",
+      "confirm-send": "Le devis a été envoyé par mail au(x) signataire(s)",
+      "installation_date": "Date de pose souhaitée"
+    }
+  },
+  "cart": {
+    "title": "Project {name}",
+    "order": "Commande",
+    "payment": "Règlement",
+    "signature": "Signature",
+    "detail_of_the_order": "Détail de la commande",
+    "total": "Total",
+    "total_services": "Total prestations",
+    "total_discounts": "Total remises",
+    "total_with_vat": "Total TTC",
+    "quantity": "Quantité",
+    "quantity_unit_error": "La quantité doit être un nombre entier si l'unité est {unit}.",
+    "is_package_price": "(Forfait)",
+    "without_vat": "HT",
+    "with_vat": "TTC",
+    "vat": "TVA",
+    "discount": "Remise",
+    "edit_order_row": "Modifier",
+    "edit_order_row_confirm_message": "La prestation a été modifiée.",
+    "delete_service": "Supprimer",
+    "delete_discount": "Supprimer la remise",
+    "payment_method": "Mode de paiement",
+    "deposit": "Acompte (€)",
+    "deposit_error": "Le montant de l'acompte ne peut pas dépasser 30% du montant total.",
+    "deposit_placeholder": "00,00 € TTC",
+    "deposit_amount_greater_than_total_error": "Le montant de l'acompte ne peut pas être supérieur au montant total.",
+    "cash": "Comptant",
+    "cash_payment_method_error": "La méthode de paiement comptant ne peut pas être vide.",
+    "cash_payment_method_empty_error": "Le montant du paiement intermédiaire ou du paiement en fin de travaux ne peut pas être vide.",
+    "financing": "Financement",
+    "financing_payment_method_error": "L'organisme de financement ne peut pas être vide.",
+    "payment_type_error": "Vous devez sélectionner au moins un type de paiement.",
+    "intermediate_payment": "Paiement intermédiaire",
+    "intermediate_payment_change_warning": "Afin de faciliter la dématérialisation des dossiers, la dernière mise à jour vous permet de préciser le montant que vous souhaitez au niveau du paiement intermédiaire. Ce dossier ayant été édité avant cette mise à jour, veuillez renseigner à nouveau les informations.",
+    "intermediate_payment_error": "Le montant du paiement intermédiaire ne peut pas être vide.",
+    "intermediate_payment_greater_than_total_error": "Le montant du paiement intermédiaire ne peut pas être supérieur au montant total.",
+    "intermediate_payment_less_than_zero_error": "Le montant du paiement intermédiaire ne peut pas être inférieur à 0.",
+    "end_of_works_payment": "Paiement en fin de travaux",
+    "payment_placeholder": "00,00 € TTC",
+    "lending_institution": "Organisme de financement",
+    "credit_amount": "Montant du crédit",
+    "credit_amount_error": "Le montant du crédit doit être supérieur à 0.",
+    "nominal_rate": "Taux nominal (%)",
+    "nominal_rate_error": "Le taux nominal doit être compris entre 0 et 100 %.",
+    "number_of_monthly_payments": "Nombre de mensualités",
+    "number_of_monthly_payments_placeholder": "0 mois",
+    "monthly_payments_count_error": "Le nombre de mensualités doit être supérieur à 0.",
+    "apr": "TAEG (%)",
+    "apr_error": "Le TAEG doit être compris entre 0 et 100 %.",
+    "total_cost_of_credit": "Coût total du crédit (€)",
+    "credit_total_cost_error": "Le coût total du crédit doit être supérieur à 0.",
+    "type_of_insurance": "Type d'assurance",
+    "amount_with_vat": "{amount} TTC",
+    "percentage_placeholder": "0 %",
+    "amount_of_monthly_payments": "Montant des mensualités (€)",
+    "monthly_payment_amount_error": "Le montant des mensualités doit être supérieur à 0.",
+    "deferment": "Report",
+    "change_tab_without_save": "Vous avez des modifications non enregistrées. Voulez-vous les enregistrer ?",
+    "accept_the_terms": "Accepter les CGV",
+    "terms_document": "Signature CGV",
+    "terms_document_instruction": "Veuillez recopier ce texte à la main et prendre une photo de celui-ci pour confirmer la signature : \"Lu et approuvé, bon pour accord - Nom / Prénom\"",
+    "customer_signatures": "Signatures des clients",
+    "sales_representatives_signatures": "Signatures des commerciaux",
+    "terms": "CGV",
+    "accept": "Accepter",
+    "acceptance_dematerialization": "En cochant cette case, j’accepte la dématérialisation du bon de commande",
+    "acceptance_terms": "En cochant cette case, je reconnais avoir pris connaissance des conditions générales de vente ci-dessus et j’en accepte les termes et les conditions",
+    "supplier_by": "Sous traité par",
+    "workforce_included": "(main-d'œuvre incluse)",
+    "discounts_dialog": {
+      "title": "Remises",
+      "select_services": "Sélectionnez une ou plusieurs prestations sur lesquelles appliquer la remise.",
+      "description": "Description",
+      "amount": "Montant",
+      "discount": "Remise",
+      "discounted_amount": "Montant remisé",
+      "total_with_vat": "Total TTC",
+      "type_label": "Type",
+      "type_choices": {
+        "commercial_advantage": "Avantage commercial (%)",
+        "discount_code": "Code remise"
+      },
+      "discount_code_value": "Remise applicable",
+      "errors": {
+        "commercial_advantage": "L'avantage commercial doit être compris entre 0 et 5 %.",
+        "discount_code_invalid": "Le code remise est invalide."
+      }
+    },
+    "suppliers_dialog": {
+      "title": "Sous-traitant",
+      "service": "Prestation",
+      "supplier": "Sous-traitant",
+      "workforce": "Afficher la main d'œuvre"
+    },
+    "finalization": {
+      "title": "Finalisation",
+      "customer_signatory": "Signataires clients",
+      "rep_signatory": "Signataires commerciaux",
+      "dates": {
+        "title": "Choix des dates",
+        "order_date": "Date de commande",
+        "installation_date": "Date de pose souhaitée",
+        "project_end_date": "Date de fin de chantier",
+        "error": {
+          "title": "Erreur",
+          "installation_date": "- La date de pose souhaitée n'est pas cohérente. Elle doit être à plus de 15 jours de la date du jour.",
+          "project_end_date": "- La date de fin de chantier n'est pas cohérente. Elle doit être à plus d'1 an de la date du jour."
+        }
+      },
+      "total": "Total du projet",
+      "keep_equipments": "Conserver les pièces, éléments ou appareils remplacés"
+    },
+    "reload-prices": {
+      "title": "Actualisation des prix",
+      "description": "Le prix de cette prestation a été modifié. Veuillez actualiser pour continuer.",
+      "delete-description": "Le prix de cette prestation a été supprimé. Veuillez supprimer la prestation pour continuer.",
+      "old-price": "Ancien prix : {oldPrice} € HT",
+      "new-price": "Nouveau prix : {newPrice} € HT"
+    },
+    "delete-item": {
+      "title": "Supprimer une prestation",
+      "dialog-content": "Voulez-vous vraiment supprimer la prestation {name} ?"
+    },
+    "vat_certificate": {
+      "title": "Attestation de TVA",
+      "description": "Veuillez prendre en photo l'attestation de TVA complété et signé."
+    },
+    "errors": {
+      "signature_failed": "Une erreur est survenue lors de la signature du bon de commande. Veuillez réessayer ou contacter votre administrateur."
+    },
+    "success_notification": "Le bon de commande a été signé avec succès. La commande est désormais en attente de validation.",
+    "signature_error": {
+      "not_all_signers_have_signed": "Une erreur s'est produite avec Docusign, les signatures doivent être refaites."
+    }
+  },
+  "service_category": {
+    "service": "Prestations",
+    "component": "Composant",
+    "rebilling": "Refacturation",
+    "miscellaneous": "Divers"
+  },
+  "signing_method": {
+    "paper": "Papier",
+    "electronic": "Électronique"
+  },
+  "origin": {
+    "title": "Source",
+    "customer_contact": "Contact client",
+    "canvassing": "Démarchage",
+    "fair_gallery": "Foire et Galerie",
+    "lead": "Lead"
+  },
+  "origin_details": {
+    "previous_customer": "Ancien client",
+    "word_of_mouth": "Bouche à oreille",
+    "physical_canvassing": "Démarchage physique",
+    "telephone_canvassing": "Démarchage téléphonique",
+    "annual_free_visit": "Visite annuelle et Gratuite",
+    "external_fair": "Foire externe",
+    "main_fair": "Foire principale",
+    "gallery": "Galerie",
+    "lead": "Lead",
+    "shop": "Magasin",
+    "direct_mailing": "Publipostage",
+    "ads": "Publicité (Presse, TV, Radio)",
+    "fair_addition": "Rajout foire",
+    "social_networks": "Réseaux sociaux",
+    "website": "Site internet"
+  },
+  "tax_system": {
+    "cee": "CEE",
+    "cpi": "Prest. Immatérielles (259B)",
+    "dom_tom": "DOM/TOM",
+    "export": "Export",
+    "france": "France",
+    "tax_suspension": "Suspension de taxe"
+  },
+  "payment_terms": {
+    "credit_card": "Carte bancaire",
+    "cetelem": "Fi CETELEM",
+    "check1": "Chèque 1x",
+    "check2": "Chèque 2x",
+    "check3": "Chèque 3x",
+    "domofinance": "Fi DOMOFINANCE",
+    "financo": "Fi FINANCO",
+    "cash": "Espèces",
+    "bank_transfer": "Virement",
+    "sofinco": "Fi SOFINCO",
+    "fi": "Fi"
+  },
+  "cash_payment_method": {
+    "CB": "Carte bancaire",
+    "CHQ": "Chèque 1x",
+    "CHQ2": "Chèque 2x",
+    "CHQ3": "Chèque 3x",
+    "FRESP": "Espèces",
+    "FRVIRCPT": "Virement"
+  },
+  "financing_payment_method": {
+    "CETELEM": "CETELEM",
+    "DOMOFINANCE": "DOMOFINANCE",
+    "FINANCO": "FINANCO",
+    "SOFINCO": "SOFINCO",
+    "FI": "Financement"
+  },
+  "representative_appraisal_status": {
+    "todo": "À faire",
+    "doneForRepresentative": "Fait par le commercial",
+    "doneForDirector": "Fait par le directeur",
+    "done": "Fait"
+  },
+  "representative_appraisal_type": {
+    "firstMonth": "1er mois",
+    "secondMonth": "2e mois",
+    "thirdMonth": "3e mois",
+    "sixthMonth": "6e mois",
+    "annual": "Annuel"
+  },
+  "sync_status": {
+    "not_ready": "Non synchronisé",
+    "ready_for_create": "Prêt à être créé",
+    "queued_for_create": "En attente de création",
+    "ready_for_update": "Prêt à être mis à jour",
+    "queued_for_update": "En attente de mise à jour",
+    "create_failed": "Échec de la création",
+    "update_failed": "Échec de la mise à jour",
+    "locked": "Verrouillé",
+    "ok": "Synchronisé",
+    "customer_not_ok": "Client non synchronisé",
+    "order_not_ok": "Commande non synchronisée"
+  },
+  "file_data_mode": {
+    "local": "Local",
+    "remote": "Distant"
+  },
+  "file_data_type": {
+    "normal": "Normal",
+    "quote": "Devis",
+    "orderForm": "Bon de commande",
+    "termsDocument": "Document d'acceptation des CGV",
+    "vatCertificate": "Attestation de TVA",
+    "siteSheet": "Fiche de préparation de chantier",
+    "siteSheetDrawing": "Dessin de la fiche de préparation de chantier",
+    "other": "Autres"
+  },
+  "envelopes": {
+    "order_subject": "Bon de commande"
+  },
+  "insurance_type": {
+    "none": "Sans assurance",
+    "death_disability_illness": "Assurance option DIM (Décès - Invalidité - Maladie)",
+    "death_disability_illness_unemployment": "Assurance option DIMC (Décès - Invalidité - Maladie - Chômage)",
+    "death_disability_illness_retirement": "Assurance option DIM+D (Décès - Invalidité - Maladie - Inactif +55 ans)",
+    "death": "Assurance option D (Décès)",
+    "death_disability": "Assurance option DI (Décès - Invalidité)"
+  },
+  "deferment": {
+    "thirty_days": "30 jours",
+    "sixty_days": "60 jours",
+    "ninety_days": "90 jours",
+    "one_hundred_twenty_days": "120 jours",
+    "one_hundred_eighty_days": "180 jours"
+  },
+  "funding_status": {
+    "under_review": "A l'étude",
+    "approved": "Validé",
+    "released": "Débloqué",
+    "none": "Pas de financement"
+  },
+  "order_status": {
+    "pending_approval": "En attente de validation",
+    "progress": "En cours",
+    "suspended": "Suspendu",
+    "cancelled": "Annulé",
+    "completed": "Terminé",
+    "quote_in_progress": "Devis en cours"
+  },
+  "order_type": {
+    "fair": "Commande Vente Foire",
+    "shop": "Commande Magasin",
+    "direct": "Commande Vente à Domicile"
+  },
+  "project_document_type": {
+    "order_form": "Bon de commande",
+    "terms_approval": "Signature des CGVs",
+    "vat_certificate": "Attestation de TVA"
+  },
+  "tax_level": {
+    "nor": "TVA 20%",
+    "red": "TVA 5.5%",
+    "red10": "TVA 10%",
+    "exo": "Exonéré"
+  },
+  "price_label": {
+    "ht": "HT",
+    "ttc": "TTC",
+    "vat": "TVA",
+    "total_ttc": "Total TTC"
+  },
+  "quote_form": {
+    "quote_form_number": "Devis N°{number}",
+    "filename_version": "Devis-{orderFormId}-{version}.pdf",
+    "display_filename_version": "Devis N°{version}.pdf",
+    "filename_preview": "Devis-{orderFormId}.pdf",
+    "signature_before_acceptance": "Case réservée avant acceptation du devis",
+    "signature_after_acceptance": "Case réservée au moment de l'acceptation du devis par le client",
+    "company_signature": "Signature Société",
+    "customer_signature": "Signature Client",
+    "read_and_approved": "Précédée de la mention « Lu et approuvé, bon pour accord »",
+    "accept_the_terms": "Je reconnais avoir pris connaissance des conditions générales de vente inscrites au verso du présent devis et j'en accepte les termes et les conditions.",
+    "cancellation_form": {
+      "title": "ANNULATION DE COMMANDE"
+    }
+  },
+  "order_form": {
+    "phone_with_label": "Téléphone : {phone}",
+    "mobile_phone_with_label": "Mobile : {mobilePhone}",
+    "mail_with_label": "Mail : {mail}",
+    "agency_siret": "SIRET : {siret}",
+    "order_form_number": "Bon de commande {number}",
+    "no_right_of_withdrawal_for_fair": "Le consommateur ne bénéficie pas d'un droit de rétractation pour un achat effectué dans une foire ou dans un salon.",
+    "customer_details": "Coordonnées du client",
+    "customer_site_details": "Coordonnées du chantier (si différent)",
+    "seller_details": "Techniciens / Conseillers-vendeurs",
+    "order_detail": "Détail de la commande",
+    "options_with_label": "Détails : {options}",
+    "headers": {
+      "product": "Produit",
+      "product_code": "Code produit",
+      "description": "Description",
+      "qty": "Qté",
+      "unity": "Unité",
+      "price_without_tax": "PU HT",
+      "total_without_tax": "Total HT",
+      "tax_rate": "Taux TVA",
+      "tax_amount": "Total TVA",
+      "total_with_tax": "Total TTC",
+      "discount": "Remise",
+      "discounted_amount": "Prix remisé"
+    },
+    "without_tax": "HT",
+    "with_tax": "TTC",
+    "tax": "TVA {rate}%",
+    "total_to_be_paid": "Total à régler",
+    "terms_of_payment": "Modalités de paiement",
+    "deposit": "Acompte : ",
+    "funder": "Financeur : ",
+    "funding": "Financement",
+    "cash": "Comptant",
+    "cash_payment_method": "Méthode de paiement : ",
+    "intermediate_payment": "Paiement intermédiaire : ",
+    "end_of_works_payment": "Paiement en fin de travaux : ",
+    "credit_amount": "Montant du crédit : ",
+    "nominal_rate": "Taux nominal : ",
+    "monthly_payments_count": "Nombre de mensualités : ",
+    "apr": "TAEG : ",
+    "credit_total_cost": "Coût total du crédit : ",
+    "insurance": "Type d'assurance : ",
+    "monthly_payment_amount": "Montant des mensualités : ",
+    "deferment": "Report : ",
+    "consulting_technician": "Technicien conseil {number}",
+    "date_of_order": "Date de la commande",
+    "desired_installation_date": "Date de pose souhaitée",
+    "deadline_date": "Date limite de fin de chantier",
+    "keep_old_stuff": "Souhaitez-vous conserver les pièces, éléments ou appareils remplacés ?",
+    "accept_the_terms": "Je reconnais avoir pris connaissance des conditions générales de vente inscrites en annexe du présent bon de commande et j’en accepte les termes et les conditions.",
+    "accept_the_dematerialization": "J'accepte la dématérialisation du bon de commande.",
+    "done_at": "Fait à {place} le {date}.",
+    "co_contractor": "Cocontractant.e {number} :",
+    "contractor": "Contractant.e :",
+    "cancellation_form": {
+      "first_instruction": "Veuillez compléter et renvoyer le présent formulaire uniquement si vous souhaitez vous rétracter du contrat.",
+      "title": "ANNULATION COMMANDE N°{number}",
+      "second_instruction": "Veuillez compléter et expédier le présent formulaire (uniquement si vous souhaitez vous rétracter du contrat) au plus tard le quatorzième jour après le jour de la conclusion du contrat, ou si ce délai expire normalement un samedi, un dimanche ou un jour férié chômé, le premier jour ouvrable suivant.",
+      "for_the_attention_of": "A l’attention de",
+      "siret_ape": "Siret : {siret} - APE : {ape}",
+      "to_complete": "Je/nous (*) vous notifie/notifions (*) par la présente de ma/notre\n(*) rétractation du contrat portant sur la vente du bien (*)/pour la\nprestation de services (*) ci-dessous :\nCommandé le (*)/reçu le (*) :\nNom du (des) consommateur(s) :\nAdresse du (des) consommateur(s) :",
+      "signature": "Signature du (des) consommateur(s) (uniquement en cas de\nnotification du présent formulaire sur papier) :\nDate :",
+      "delete_as_appropriate": "(*) Rayez la mention inutile."
+    },
+    "generate_errors": {
+      "message": "Le bon de commande n'a pas pu être généré pour la raison suivante :",
+      "contact_dto": {
+        "full_name": "Nom d'un contact incorrect",
+        "email": "Adresse email d'un contact incorrecte",
+        "phone": "Numéro de téléphone (fix ou mobile) d'un contact incorrect"
+      },
+      "discount_row_dto": {
+        "code": "Code promo incorrect",
+        "label": "Nom produit remisé incorrect",
+        "discount": "Remise incorrecte",
+        "total_net_incl_tax": "Prix remisé incorrect"
+      },
+      "order_form_dto": {
+          "agency_label": "Nom d'agence incorrect",
+        "agency_address": "Adresse d'agence incorrecte",
+        "agency_postal_code": "Code postal d'agence incorrect",
+        "agency_city": "Ville d'agence incorrecte",
+        "agency_phone": "Numéro de téléphone d'agence incorrect",
+        "agency_email": "Adresse email d'agence incorrecte",
+        "agency_siret": "Numéro SIRET d'agence incorrect",
+        "agency_naf": "Code APE d'agence incorrect",
+        "customer_address": "Adresse du client incorrecte",
+        "customer_postal_code": "Code postal du client incorrect",
+        "customer_city": "Ville du client incorrect",
+        "customer_contacts": "Aucun contact rattaché au client",
+        "fair_city": "Ville de foire incorrecte",
+        "order_address": "Adresse de commande incorrecte",
+        "order_postal_code": "Code postal de commande incorrect",
+        "order_city": "Ville de commande incorrect",
+        "order_number": "Numéro de commande incorrect",
+        "order_rows": "Aucune ligne de commande",
+        "order_total_gross_excl_tax": "Prix HT incorrect",
+        "order_total_gross_incl_tax": "Prix TTC incorrect",
+        "order_total_net_incl_tax": "Prix TTC avec remise incorrect",
+        "cash_payment_method": "Moyen de paiement incorrect",
+        "funder": "Organisme de financement incorrect",
+        "deposit": "Montant d'accompte incorrect",
+        "intermediate_payment": "Paiement intermédiaire incorrect",
+        "end_of_work_payment": "Paiement en fin de travaux incorrect",
+        "credit": "Montant du crédit incorrect",
+        "monthly_payments_count": "Nombre de mensualités incorrect",
+        "credit_total_cost": "Coût total du crédit incorrect",
+        "monthly_payment_amount": "Montant des mensualités incorrect",
+        "nominal_rate": "Taux nominal incorrect",
+        "apr": "TAEG incorrect",
+        "insurance_type": "Type d'assurance incorrect",
+        "deferment": "Report incorrect",
+        "installation_date": "Date de pause souhaitée incorrecte",
+        "deadline_date": "Date de fin de chantier incorrecte",
+        "representatives": "Aucun commercial rattaché à la commande",
+        "terms": "CGV manquante"
+      },
+      "order_rows_dto": {
+        "code": "Code produit incorrect",
+        "label": "Nom produit incorrect",
+        "designation": "Description produit incorrecte",
+        "quantity": "Quantité produit incorrecte",
+        "unit": "Unité produit incorrecte",
+        "gross_price": "Prix unitaire HT produit incorrect",
+        "total_gross_excl_tax": "Total HT produit incorrect",
+        "tax": "Taux TVA produit incorrect",
+        "gross_tax_amount": "Total TVA produit incorrect",
+        "total_gross_incl_tax": "Total TTC produit incorrect"
+      },
+      "representative_dto": {
+        "full_name": "Nom d'un commercial incorrect"
+      },
+      "supplier_dto": {
+        "project_end_date": "Date de fin de chantier incorrecte",
+        "name": "Nom d'un sous-traitant incorrect",
+        "address": "Adresse d'un sous-traitant incorrecte",
+        "postal_code_city": "Code postal et ville d'un sous-traitant incorrects",
+        "siret": "Numéro SIRET d'un sous-traitant incorrect",
+        "rge_certificate_number": "Numéro de certification RGE d'un sous-traitant incorrect",
+        "rge_qualification": "Qualification RGE d'un sous-traitant incorrect",
+        "supplies_gross_price": "Prix unitaire HT fourniture incorrect",
+        "supplies_total_gross_excl_tax": "Total HT fourniture incorrect",
+        "supplies_gross_tax_amount": "Total TVA fourniture incorrect",
+        "supplies_total_gross_incl_tax": "Total TTC fourniture incorrect",
+        "workforce_gross_price": "Prix unitaire HT main d'œuvre incorrect",
+        "workforce_total_gross_excl_tax": "Total HT main d'œuvre incorrect",
+        "workforce_gross_tax_amount": "Total TVA main d'œuvre incorrect",
+        "workforce_total_gross_incl_tax": "Total TTC main d'œuvre incorrect"
+      }
+    },
+    "terms": {
+      "title": "CONDITIONS GÉNÉRALES DE VENTE"
+    },
+    "supplier": {
+      "project_end_date": "Date de fin de chantier",
+      "including": "Dont",
+      "siret": "N° SIRET",
+      "rge_certificate": "Certificat RGE",
+      "rge_qualifications": "Qualifications RGE",
+      "supplied_by": "Sous-traité par",
+      "supplies": "Fournitures",
+      "workforce": "Main d'œuvre"
+    }
+  },
+  "discount_codes": {
+    "title": "Codes remise",
+    "discount_code_value": "Code remise {value}",
+    "global": "Global",
+    "subject": {
+      "family": "Famille(s): ",
+      "sub_family": "Sous-famille(s): ",
+      "service": "Prestation(s): "
+    },
+    "validity": "Valable du {startDate} au {endDate}",
+    "save_dialog": {
+      "create_title": "Créer un code remise",
+      "edit_title": "Modifier un code remise",
+      "view_title": "Code remise",
+      "discount_percentage_label": "Remise (%)",
+      "code_label": "Code",
+      "expiration_label": "Aucune date d'expiration",
+      "start_date_label": "Date de début",
+      "end_date_label": "Date de fin",
+      "warning_global_code": "Ce code est global. Il est donc non modifiable et non supprimable.",
+      "remove": "Supprimer le code remise"
+    },
+    "errors": {
+      "code_already_exists": "Ce code existe déjà."
+    }
+  },
+  "appraisal": {
+    "agencies": "Mes agences",
+    "appraisals_for_representative": "Rappels d'évaluation",
+    "appraisals_for_director": "Évaluations à remplir",
+    "done_appraisals": "Entretiens réalisés {doneCount}/{totalCount}",
+    "list": {
+      "header": {
+        "limit_date": "Date limite",
+        "name": "Nom",
+        "type": "Période"
+      },
+      "select": "Sélect.",
+      "recall_action": "Envoyer un rappel",
+      "recall_modal": {
+        "content": "Envoyer un rappel d'évaluation aux commerciaux sélectionnées ?",
+        "notification": "Rappel(s) envoyé(s) par mail",
+        "send": "Envoyer",
+        "title": "Rappel"
+      }
+    },
+    "history": {
+      "title": "Historique",
+      "appraisals_history": "Historique des entretiens",
+      "year": "Année {year}"
+    },
+    "representatives": "Tous les commerciaux",
+    "representatives_without_appraisal": "Commerciaux sans évaluation",
+    "arrival_date": "Date d'arrivée",
+    "next_appraisal_date": {
+      "title": "Prochaine évaluation",
+      "to_be_defined_on": "À définir sur {date}",
+      "limit_date":"Date limite"
+    },
+    "completed_by_director": "Complétée par le directeur",
+    "completed_by_representative": "Complétée par le commercial",
+    "completed_appraisal": "Évaluation complétée",
+    "to_be_completed_appraisal": "Évaluation à remplir",
+    "no_appraisal_found": "Aucune évaluation trouvée",
+    "annual_appraisal": "Évaluation annuelle",
+    "periodic_appraisal": "Évaluation {periodicity} mois",
+    "periodicities": {
+      "first": "1er",
+      "second": "2ème",
+      "third": "3ème",
+      "sixth": "6ème"
+    },
+    "badges": "Badges",
+    "common": "GÉNÉRAL",
+    "first_base": "1er SOCLE",
+    "second_base": "2ème SOCLE",
+    "third_base": "3ème SOCLE",
+    "no_history": "Aucun historique",
+    "no_badge_set": "Aucun badge défini",
+    "training_protocol": {
+      "title": "Protocole de formation",
+      "common": {
+        "title": "GÉNÉRAL",
+        "probationary_period_validation": "Validation de période d'essai",
+        "corporate_vehicle": "Véhicule de société"
+      },
+      "first_base": {
+        "title": "SOCLE 1",
+        "two_months_with_35_40_booked_meetings": "Effectuer 2 mois à 35/40 RDV pris",
+        "first_introduction_before_mentor": "Faire sa première présentation devant son tuteur",
+        "two_months_with_15_opportunity_requests": "Effectuer 2 mois à 15 demandes d'opportunités",
+        "alone_on_first_sale": "Faire sa première vente seul"
+      },
+      "second_base": {
+        "title": "SOCLE 2",
+        "first_sale_at_fair": "Faire sa première vente en foire et salon",
+        "alone_on_4_funding_sales": "Vendre seul 4 financements",
+        "two_months_with_20K_turnover": "Faire 2 mois à 20 000€ de chiffre d'affaires",
+        "alone_on_first_additional_sale": "Effectuer sa première vente additionnelle seul"
+      },
+      "third_base": {
+        "title": "SOCLE 3",
+        "alone_on_30K_or_more_turnover_in_one_month": "Réaliser un mois à 30 000€ de chiffre d'affaires ou plus en autonomie",
+        "sold_two_products_in_one_sale": "Vendre 2 prestations en 1 vente"
+      }
+    },
+    "create": {
+      "title": "Ajouter une évaluation",
+      "type": "Type d'évaluation",
+      "limit_date": "Date limite"
+    },
+    "edit": {
+      "own_appraisal": "Auto-évaluation",
+      "response": {
+        "not_met": "Non acquis",
+        "in_progress": "En cours",
+        "achieved": "Acquis",
+        "proficient": "Maîtrisé"
+      },
+      "tab": {
+        "objectives": {
+          "title": "Objectifs",
+          "general": "Général",
+          "objective": "Objectif",
+          "booked_meeting_count": "Nombre de RDV posé",
+          "processed_meeting_booked_count": "Nombre de RDV traité",
+          "if_yes": "Si RDV TRAITÉ",
+          "alone": "Seul",
+          "accompanied": "Accompagné",
+          "meeting_origin": "Origine du RDV",
+          "tap": "TAP",
+          "phone": "Phone",
+          "gms": "GMS"
+        },
+        "survey": "Prospection",
+        "negociation": "Négociation",
+        "opportunity_request_quality": "Qualité de la demande d'opportunité",
+        "opportunity_request_quality_short": "Qualité",
+        "life_at_work": "Vie en entreprise",
+        "question": {
+          "process_knowledge": "Connaissance des trames",
+          "glossary_knowledge": "Connaissance des lexiques",
+          "meeting_quantity": "Quantité de rendez-vous",
+          "meeting_quality": "Qualité de rendez-vous",
+          "attitude_towards_customer": "Attitude et ambiance face aux clients",
+          "company_introduction": "Présentation de l'entreprise",
+          "technical_need_creation": "Création de besoin technique",
+          "technical_pitch_proficiency": "Maîtrise de l'argumentaire technique",
+          "financial_pitch_proficiency": "Maîtrise de l'argumentaire financier",
+          "attitude_and_mood_at_meeting": "Attitude et ambiance en rendez-vous",
+          "meeting_customization": "Personnalisation du rendez-vous",
+          "team_integration": "Intégration dans l'équipe",
+          "staff_social_interaction": "Communication avec les collaborateurs"
+        }
+      },
+      "generate": {
+        "title": "Valider et générer",
+        "unique_name": "evaluation-{representativeId}-{date}.pdf",
+        "document_title": {
+          "analysis": "ANALYSE",
+          "of_type": "DU {type} MOIS",
+          "annual": "ANNUELLE"
+        },
+        "unofficial-document-description-part-1": "Ce document ne fait pas office de document officiel, pour finaliser le document",
+        "unofficial-document-description-part-2": "remplissez le champ commentaire et confirmez la génération de celui-ci.",
+        "objectives": {
+          "objective": "Objectif",
+          "booked_meeting_count": "RDV pris",
+          "processed_meeting_booked_count": "RDV traité",
+          "if_yes": "Si RDV TRAITÉ",
+          "alone": "Seul",
+          "accompanied": "Accompagné",
+          "meeting_origin": "ORIGINE DU RDV",
+          "tap": "Tap",
+          "phone": "Phone",
+          "gms": "GMS"
+        },
+        "skills": "COMPÉTENCES",
+        "auto_appraisal": "AUTO-ÉVALUATION",
+        "director": "DIRECTEUR",
+        "improvement_plan": "Axes d'amélioration - Objectifs personnalisés",
+        "completed_by_user_at": "Complété par {user} le {date}",
+        "confirmation": {
+          "title": "Confirmer la génération",
+          "content": "Souhaitez-vous confirmer la génération de l'évaluation ?"
+        }
+      },
+      "director": {
+        "step": {
+          "appraisal": "Évaluation",
+          "validation": "Validation"
+        },
+        "visualize": "Visualiser",
+        "improvement_plan":"Axes d'amélioration - Objectifs personnalisés"
+      }
+    }
+  },
+  "auth": {
+    "reset_password_dialog": {
+      "title": "Mot de passe oublié",
+      "instruction": "Renseigne ton email.",
+      "send": "Envoyer",
+      "success": "Un email de réinitialisation de mot de passe a été envoyé à l'adresse {email}."
+    },
+    "reset_password_screen": {
+      "title": "Réinitialisation du mot de passe",
+      "submit": "Réinitialiser",
+      "password_label": "Mot de passe",
+      "confirm_password_label": "Confirmation du mot de passe",
+      "success": "Le mot de passe a été réinitialisé avec succès."
+    },
+    "errors": {
+      "expired_action_code": "Le lien de réinitialisation de mot de passe a expiré.",
+      "invalid_action_code": "Le lien de réinitialisation de mot de passe est invalide.",
+      "user_disabled": "L'utilisateur a été désactivé.",
+      "user_not_found": "L'utilisateur n'existe pas.",
+      "missing_email": "L'email est manquant.",
+      "invalid_email": "L'email est invalide.",
+      "weak-password": "Le mot de passe doit contenir au moins 8 caractères, dont une majuscule, une minuscule, un chiffre et un caractère spécial.",
+      "unauthorized": "L'utilisateur n'est pas autorisé à se connecter à l'application.",
+      "synchro_error": "Une erreur est survenue lors de la synchronisation des données, veuillez contacter votre administrateur.",
+      "mandatory_data_missing": "Une erreur est survenue lors de la synchronisation des données, veuillez vous reconnecter."
+    }
+  },
+  "role": {
+    "confirmedSalesRep": "Commercial confirmé",
+    "fairSalesRep": "Commercial Foire",
+    "agencyDirector": "Directeur agence",
+    "agencyAnimator": "Animateur agence",
+    "regionalAnimator": "Animateur région",
+    "juniorSalesRep": "Commercial junior",
+    "technicalManager": "Responsable technique",
+    "installer": "Poseur",
+    "regionalDirector": "Directeur région",
+    "headquartersAnimator": "Animateur Siège",
+    "it": "Profil informatique",
+    "unknown": "Rôle inconnu"
+  },
+  "image_picker": {
+    "errors": {
+      "cannot_load_image": "Impossible de charger l'image"
+    }
+  },
+  "sync_error": {
+    "title": "Erreur de synchronisation",
+    "subtitle": "Une erreur de synchronisation est survenue. Nous tentons de la résoudre au plus vite.",
+    "switch_agency": "Changer d'agence",
+    "description": {
+      "pending": "Une opération est en cours, veuillez patienter...",
+      "success": "L'opération est terminée, nous allons vous reconnecter.",
+      "failed": "Une erreur est survenue lors de l'opération, veuillez contacter votre administrateur."
+    }
+  },
+  "site_sheet": {
+    "title": "Fiche de préparation de chantier",
+    "generate": "Générer la fiche",
+    "filename_version": "fiche-chantier-{orderFormId}-{version}.pdf",
+    "filename_preview": "fiche-chantier-{orderFormId}-preview.pdf",
+    "sidebar": {
+      "title": "Préparation de chantier",
+      "items": {
+        "statementOfInformation": "Relevé d'informations",
+        "roof": "Toiture",
+        "cover": "Support",
+        "exposure": "Exposition façade avant",
+        "facade": "Façade",
+        "gutters": "Gouttières",
+        "fasciaBoard": "Cache-moineaux",
+        "insulation": "Isolation",
+        "woodTreatment": "Traitement de bois",
+        "connection": "Raccordement",
+        "comments": "Observations"
+      }
+    },
+    "content": {
+      "mandatory_fields": "* Champs obligatoires pour Toiture et façade",
+      "informations": "Informations*",
+      "roof": {
+        "category": {
+          "roof": "Toiture",
+          "gutter": "Gouttière",
+          "roofing_elements": "Éléments toiture",
+          "water_repellent": "Hydrofuge"
+        },
+        "number_of_sections": "Nombre de pans*",
+        "has_return_in_l": "Retour en L*",
+        "total_roof_area": "Surface globale de la toiture",
+        "age_of_roof": "Âge de la toiture",
+        "state_of_roof": "État de la toiture",
+        "vegetation": "Végétation",
+        "roof_pitch": "Pente du toit",
+        "checking_recovery": "Vérification recouvrement (cm)",
+        "existing_gutter": "Gouttière existante",
+        "existing_gutters_colors": "Coloris",
+        "gable_height": "Hauteur pignon*",
+        "height_under_gutter": "Hauteur sous gouttières*",
+        "got_veranda": "Véranda",
+        "got_photovoltaic": "Photovoltaïque",
+        "number_of_chimneys": "Nombre de cheminée",
+        "need_to_paint_chimneys": "Cheminée à peindre",
+        "chimneys_to_paint_color": "Couleur",
+        "number_of_dormers": "Nombre de chien-assis",
+        "number_of_velux": "Nombre de velux",
+        "type_of_ridge": "Type de faîtage",
+        "state_of_ridge": "État du faîtage",
+        "need_for_cement_work": "Cimenterie à prévoir",
+        "velux_to_be_waterproofed": "Velux à hydrofuger",
+        "ridge_to_be_waterproofed": "Faîtage à hydrofuger",
+        "cladding_to_be_waterproofed": "Bardage à hydrofuger",
+        "edges_to_be_waterproofed": "Rives à hydrofuger",
+        "water_repellent_color": "Couleur hydrofuge"
+      },
+      "cover": {
+        "models_and_dimensions": "Modèles et dimensions",
+        "types": "Types",
+        "number_of_slates_or_tiles_in_advance": "Nombre de tuiles/ardoises que le client à d'avance"
+      },
+      "exposure": {
+        "exposure": "Exposition"
+      },
+      "gutters": {
+        "gutter_types": "Types",
+        "other_material": "Si autres, précisez",
+        "length_in_linear_meters": "Longueur en mètres linéaires",
+        "downspout_length": "Longueur des descentes",
+        "gutters_color": "Couleur des gouttières",
+        "downspouts_color": "Couleur des descentes",
+        "downspout_type": "Type de descente",
+        "left_angle_quantity": "Quantité d'angles à 90° gauche",
+        "right_angle_quantity": "Quantité d'angles à 90° droite",
+        "number_of_gutter_bottoms": "Nombre de fonds",
+        "number_of_gutter_births": "Nombre de naissances",
+        "number_of_gutter_bends": "Nombre de coudes",
+        "number_of_gutter_sleeves_or_dolphin": "Nombre de manchettes/dauphins",
+        "with_water_recuperator": "Récupérateur d'eau",
+        "with_leaf_guard": "Pare-feuilles"
+      },
+      "fascia_board": {
+        "fascia_board_length": "Longueur (ML)",
+        "fascia_board_advance_in_cm": "Avancée en cm",
+        "fascia_board_color": "Couleur cache moineaux",
+        "fascia_board_return": "Retour du bandeau"
+      },
+      "facade": {
+        "facade_area": "Surface (m²)",
+        "facade_age": "Âge façade (ans)",
+        "type_of_existing_support": "Type de support existant",
+        "facade_existing_support_types": "Types",
+        "facade_pointings": "Rejointement",
+        "is_damp_support": "Support humide",
+        "is_blown_coating": "Revêtement soufflé",
+        "facade_type_of_work": "Type de travaux",
+        "water_repellent_type": "Hydrofuge",
+        "number_of_windows": "Nombre de fenêtres",
+        "cracks": "Fissures (cm)",
+        "micro_cracks": "Micro-fissures (mm)",
+        "facade_color": "Couleur de la façade",
+        "base_color": "Couleur soubassement",
+        "window_surrounding_color": "Couleur des entourages de fenêtres",
+        "external_ventilation_grilles": "Grille(s) de ventilation extérieure",
+        "surrounding_windows_types": "Encadrement fenêtres"
+      },
+      "wood_treatment": {
+        "wood_treatment_type": "Type de traitement proposé (si bois)",
+        "wood_treatment_area": "Surface à traiter (ML)"
+      },
+      "insulation": {
+        "insulation_access_type": "Accès par",
+        "insulators": "Isolant proposé",
+        "insulation_area": "Surface",
+        "mineral_wool_type": "Type de laine minérale",
+        "insulation_type_of_installation": "Type de pose proposée",
+        "existing_insulation_type": "Type d'isolation existante",
+        "existing_insulation_age": "Âge de l'isolation existante (ans)",
+        "removal_of_existing_insulation": "Enlèvement de l'isolation existante",
+        "attic_floor_type": "Type de plancher dans les combles",
+        "roof_structure_type": "Type de charpente",
+        "ventilation_system": "VMC/VCI",
+        "ventilation_system_age": "Âge (ans)"
+      },
+      "connection": {
+        "water_recuperator": "Récupérateur d'eau",
+        "water_supply_type": "Arrivée d'eau",
+        "water_supply_outdoor_type": "Si extérieur",
+        "water_pression_type": "Pression d'eau",
+        "electricity_type": "Électricité"
+      },
+      "other": {
+        "periods_of_unavailability": "Périodes d'indisponibilité",
+        "heating_system": "Mode de chauffage",
+        "zone": "Zone",
+        "others_observations": "Autres observations",
+        "drawing_area": "Zone de dessin"
+      }
+    },
+    "house_type": {
+      "groundFloor": "Plain pied",
+      "multiFloor": "À étage",
+      "semiDetached": "Mitoyenne",
+      "gotPowerLines": "Présence de ligne électrique",
+      "needDICT": "Besoin de DICT"
+    },
+    "state_of_roof": {
+      "good": "Bon état",
+      "dirty": "Sale",
+      "veryDirty": "Très sale",
+      "existingPaint": "Peinture existante"
+    },
+    "vegetation": {
+      "normal": "Normal",
+      "important": "Importante"
+    },
+    "roof_pitch": {
+      "thirtyDegrees": "+/- 30°",
+      "fortyFiveDegrees": "+/- 45°",
+      "seventyDegrees": "+/- 70°"
+    },
+    "state_of_ridge": {
+      "good": "Bon",
+      "medium": "Moyen",
+      "bad": "Mauvais"
+    },
+    "cover_type": {
+      "fiberCementSlates": "Ardoises fibrociment",
+      "asbestos": "Ardoises fibrociment amiante(Si avant 1997)",
+      "naturalSlates": "Ardoises naturelles",
+      "cementTiles": "Tuiles ciment",
+      "concreteTiles": "Tuiles béton",
+      "terracottaTiles": "Tuiles terre cuite",
+      "countryTiles": "Tuiles de pays"
+    },
+    "exposure": {
+      "south": "Sud",
+      "north": "Nord",
+      "east": "Est",
+      "west": "Ouest"
+    },
+    "gutter_type": {
+      "pvc": "PVC Couleur",
+      "zinc": "Zinc 1/2 ronde",
+      "havraise": "Havraise",
+      "alu": "Alu",
+      "other": "Autres"
+    },
+    "downspout_type": {
+      "square": "Carrées",
+      "round": "Rondes"
+    },
+    "facade_existing_support_type": {
+      "coating": "Enduit",
+      "paint": "Peinture",
+      "stone": "Pierre",
+      "eti": "ITE",
+      "brick": "Brique"
+    },
+    "facade_pointing": {
+      "cement": "Ciment",
+      "facade": "Façade",
+      "brick": "Brique"
+    },
+    "facade_type_of_work": {
+      "facadeRenovationWithElementProtection": "RPE",
+      "coating": "Enduit"
+    },
+    "water_repellent_type": {
+      "colored": "Coloré",
+      "colorless": "Incolore"
+    },
+    "surrounding_windows_type": {
+      "alu": "Alu",
+      "metal": "Métal",
+      "coating": "Enduit"
+    },
+    "wood_treatment_type": {
+      "preventive": "Préventif",
+      "curative": "Curatif"
+    },
+    "insulation_access_type": {
+      "stairs": "Escalier",
+      "hatch": "Trappe"
+    },
+    "insulator": {
+      "r6": "R6",
+      "r7": "R7",
+      "technisopro": "Technisopro (ou équivalent)",
+      "mineralWool": "Laine minérale",
+      "stoneWoolPlate": "Plaque laine de roche",
+      "polystyrenePlate": "Plaque de polystyrène"
+    },
+    "insulation_type_of_installation": {
+      "blowing": "Soufflage",
+      "uncovering": "Découvrement",
+      "underlayment": "Sous-toiture",
+      "eti": "ITE"
+    },
+    "existing_insulation_type": {
+      "uninsulated": "Non isolé",
+      "polystyrene": "Polystyrène",
+      "glassWool": "Laine de verre",
+      "thinInsulator": "Isolant mince",
+      "blowInInsulation": "Floconage"
+    },
+    "attic_floor_type": {
+      "bricks": "Briques",
+      "concrete": "Béton",
+      "joists": "Solives"
+    },
+    "roof_structure_type": {
+      "metal": "Métallique",
+      "truss": "Fermette",
+      "traditional": "Traditionnelle"
+    },
+    "water_supply_type": {
+      "indoor": "Intérieur",
+      "outdoor": "Extérieur",
+      "garage": "Garage"
+    },
+    "water_supply_outdoor_type": {
+      "front": "Devant",
+      "back": "Derrière"
+    },
+    "water_pression_type": {
+      "normal": "Normale",
+      "low": "Insuffisante",
+      "needPump": "Prévoir pompe"
+    },
+    "electricity_type": {
+      "indoor": "Intérieur",
+      "outdoor": "Extérieur"
+    },
+    "heating_system": {
+      "fuel": "Combustible (gaz, fioul, bois)",
+      "electric": "Électrique"
+    },
+    "zone": {
+      "h1": "H1",
+      "h2": "H2",
+      "h3": "H3"
+    },
+    "pdf": {
+      "site_sheet_banner": "Fiche de prépration de chantier {number}",
+      "customer_details": "Coordonnées du client",
+      "customer_site_details": "Coordonnées du chantier (si différent)",
+      "seller_details": "Techniciens / Conseillers-vendeurs",
+      "site_preparation": "Préparation de chantier",
+      "statement_of_information": "#1 Relevé d'informations",
+      "roof": "#2 Toiture",
+      "number_of_sections": "Nombre de pans",
+      "has_return_in_l": "Retour en L",
+      "gable_height": "Hauteur pignon",
+      "height_under_gutter": "Hauteur sous gouttières",
+      "cover": "#3 Support",
+      "exposure": "#4 Exposition façade avant",
+      "gutter": "#5 Gouttières",
+      "fascia_board": "#6 Cache-moineaux",
+      "facade": "#7 Façade",
+      "wood_treatment": "#8 Traitement de bois",
+      "insulation": "#9 Isolation",
+      "connection": "#10 Raccordement",
+      "comments": "#11 Autres / Observations",
+      "house_plan": "Plan de la maison et de son environnement",
+      "site_safety": "Sécurisation du chantier toiture / façade",
+      "scaffolding": "Échafaudage",
+      "nacelle": "Nacelle",
+      "risks": {
+        "banner": "#1 Analyse de risque chantier",
+        "first_group_question": "Les abords de la maison permettent-il d'installer un échafaudage au ras de la toiture ?",
+        "second_group_questions": {
+          "first": "L'entrée du client permet-elle de faire passer une nacelle ?",
+          "second": "le sol est-il non meuble ?",
+          "third": "Le terrain est-il exempt de pente (tolérance : pente < 2%) ?",
+          "fourth": "La maison est-elle accessible sur l'ensemble de son périmètre ?"
+        },
+        "last_question": "Le poseur peut-il se tenir debout et se déplacer sur la toiture sans besoin d'aide ?",
+        "last_question_first_answer": "Chantier non réalisable dans les conditions de sécurité suffisantes",
+        "last_question_second_answer": "Harnais de sécurité"
+      },
+      "collective_protection": "#2 Protection collective",
+      "internal": "Interne",
+      "outsource": "Sous-traité",
+      "scaffolding_name": "Nom verif",
+      "company": "Entreprise",
+      "phone": "Tél",
+      "renter": "Loueur",
+      "driver": "Conducteur",
+      "check_authorizations": "(vérification CACES + autorisation de conduite)",
+      "individual_protection": "#3 Protection individuelle",
+      "house_scheme": "Schéma maison",
+      "house_scheme_description_1": "Schématiser la maison en précisant les points d'ancrages.",
+      "house_scheme_description_2": "Rappel : les points d'ancrage doivent être positionnés de sorte à limiter l'effet pendulaire en cas de chute.",
+      "drawing_area": "Zone de dessin",
+      "presence_of_sheathing": "Présence de voliges",
+      "presence_of_sheathing_yes_description": "(prévoir crochets de sécurité)",
+      "presence_of_asbestos": "Présence d'amiante",
+      "presence_of_asbestos_yes_description": "(application mode opératoire)",
+      "presence_of_electricity": "Présence de lignes électriques non isolées à proximité de la maison",
+      "presence_of_electricity_yes_description": "(demande isolation par EDF)",
+      "estimated_working_time": "Estimation du temps de travail",
+      "security_comments": "Observations",
+      "security_date_signature": "Date et signature du RT",
+      "condition_report": "État des lieux avant démarrage du chantier",
+      "control_points": "Points de contrôle",
+      "condition_found": "État constaté",
+      "condition_found_good": "Bon",
+      "condition_found_medium": "Moyen",
+      "condition_found_bad": "Mauvais",
+      "control_points_comments": "Observations",
+      "condition_report_water_supply": "Arrivée d'eau",
+      "condition_report_water_supply_description": "(État de la tuyauterie, des robinets, etc...)",
+      "condition_report_attic": "Combles",
+      "condition_report_attic_description": "(État de l'isolation, évaluation des riques, etc...)",
+      "condition_report_interior_ceilings": "Plafonds intérieurs",
+      "condition_report_interior_ceilings_description": "(Traces d'humidité, fissures, etc...)",
+      "condition_report_facade": "Façade",
+      "condition_report_facade_description": "(Cloques, fissures, enduit soufflé, etc...)",
+      "condition_report_shutter_carpentry": "Menuiserie volets",
+      "condition_report_shutter_carpentry_description": "(État général, vitrage cassée, buée, rayures, etc...)",
+      "condition_report_gutters": "Gouttières",
+      "condition_report_gutters_description": "(État général, voir si percées, etc...)",
+      "condition_report_fascia_board": "Caches-moineaux",
+      "condition_report_fascia_board_description": "(Trou, peinture, état général, etc...)",
+      "condition_report_roof_window": "Fenêtres de toit",
+      "condition_report_roof_window_description": "(État général, vitrage, etc...)",
+      "condition_report_roof_window_shutters": "Volets fenêtres de toit",
+      "condition_report_roof_window_shutters_description": "(État général vérifier le fonctionnement, etc...)",
+      "condition_report_comments": "Observations",
+      "condition_report_comments_description": "(Végétation, etc...)",
+      "made_on": "Fait le",
+      "in": "à",
+      "signature_site_manager": "Signature du responsable chantier",
+      "signature_customer": "Signature du client",
+      "site_traceability": "Traçabilité du chantier",
+      "cleaning_banner": "#1 Nettoyage",
+      "technician_name": "Nom du technicien",
+      "intervention_date": "Date de l'intervention",
+      "technician_comments": "Observations du technicien",
+      "technician_signature": "Signature du technicien",
+      "agency": "Agence",
+      "tile_or_slate_dimensions": "Dimensions des tuiles ou ardoises",
+      "if_differents_from_support": "(Si différentes du support)",
+      "quantity_to_be_changed": "Quantité à changer",
+      "if_different_from_support": "(Si différente du support)",
+      "gutter_type_and_condition": "Type et état des gouttières",
+      "repairs_to_be_made_and_materials_required": "Réparation à effectuer et matériels nécessaires à prévoir",
+      "checking_and_protecting_unfinished_attics": "Vérification et protection des combles non-aménagés",
+      "check_flashing": "Vérification solin",
+      "defoamer": "Antimousse",
+      "already_completed": "Déjà effectué",
+      "to_be_realized": "À réaliser",
+      "ridge_type_and_condition": "Type et état du faîtage",
+      "number_of_hooks": "Nombre de crochets",
+      "to_be_completed_by_customer": "À remplir par le client",
+      "cleaning": "Nettoyage",
+      "protection": "Protection",
+      "security": "Sécurité",
+      "satisfactory": "Satisfaisant",
+      "unsatisfactory": "Insatisfaisant",
+      "date_signature_customer": "Date et signature du client",
+      "water_repellent": "#2 Hydrofuge",
+      "quantity_of_sales_and_tiles_changed": "Quantité des ardoises et tuiles changées",
+      "various_repairs_carried_out": "Réparations diverses effectuées",
+      "chimney_paint": "Peinture cheminée",
+      "ridge_waterproofing": "Hydrofuge faîtage",
+      "waterproof_eaves": "Rives hydrofugées",
+      "other_services": "#3 Autres prestations",
+      "description": "Description",
+      "safety_reminders": "Rappels sécurité",
+      "safety_reminders_wearing_equipment_1": "Le port des équipements de protection individuelle est OBLIGATOIRE : ",
+      "safety_reminders_wearing_equipment_2": "- en toute circonstance : tenue de travail, chaussure de sécurité, harnais de sécurité,",
+      "safety_reminders_wearing_equipment_3": "- en fonction du chantier : gants de protection, masque respiratoire, tenue amiente.",
+      "safety_reminders_compliance_with_operating_procedures_1": "Respect des modes opératoires : ",
+      "safety_reminders_compliance_with_operating_procedures_2": "- travail en hauteur, amiante.",
+      "site_completion_certificate": "Certificat de fin de chantier & attestation de satisfaction client",
+      "certificate_identity": "Je soussigné(e) Madame, Monsieur,",
+      "certificate_address": "Résidant au : ",
+      "certificate_subject": "certifie la fin de chantier concernant la rénovation de : ",
+      "certificate_order_date": "Correspondant à ma commande du : ",
+      "certificate_order": "Atteste que le bon de commande",
+      "certificate_order_number": "N°",
+      "certificate_order_date_2": "du",
+      "certificate_order_executed": "a été exécuté dans les règles de l'art.",
+      "certificate_end_of_works": "Atteste que les travaux ont été livrés et qu'aucune prestation ne reste à effetuer.",
+      "certificate_comments": "Souhaite néanmoins faire les observations suivantes : ",
+      "certificate_comments_area": "Observations"
+    }
+  },
+  "image_painter": {
+    "arrow": "Flèche",
+    "change_brush_size": "Modifier la taille du pinceau",
+    "change_color": "Changer la couleur",
+    "change_mode": "Changer de mode",
+    "circle": "Cercle",
+    "clear_all_progress": "Tout effacer",
+    "dash_line": "Ligne pointillée",
+    "done": "Terminé",
+    "drawing": "Dessin",
+    "line": "Ligne",
+    "none_zoom": "Déplacer / Zoom",
+    "rectangle": "Rectangle",
+    "text": "Texte",
+    "undo": "Retour"
+  }
+}

@@ -1,0 +1,4 @@
+enum CustomerListViewTypes {
+  list,
+  map,
+}

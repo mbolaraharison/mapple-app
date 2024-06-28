@@ -1,0 +1,13 @@
+import 'tables/discount_codes_table.dart';
+
+availableDiscountCodes: SELECT dc.* from discount_codes dc
+    WHERE dc.deleted_at is null 
+    AND ((dc.start_date is null AND dc.end_date is null)
+    OR (strftime('%Y-%m-%d 00:00:00', datetime(julianday(datetime(dc.start_date, 'unixepoch')) + (2.0 / 24.0), 'localtime')) <= strftime('%Y-%m-%d 00:00:00', :date) 
+    AND strftime('%Y-%m-%d 00:00:00', datetime(julianday(datetime(dc.end_date, 'unixepoch')) + (2.0 / 24.0), 'localtime')) >= strftime('%Y-%m-%d 00:00:00', :date)));
+
+availableDiscountCodesByCode: SELECT dc.* from discount_codes dc
+    WHERE dc.code = :code AND dc.deleted_at is null 
+    AND ((dc.start_date is null AND dc.end_date is null)
+    OR (strftime('%Y-%m-%d 00:00:00', datetime(julianday(datetime(dc.start_date, 'unixepoch')) + (2.0 / 24.0), 'localtime')) <= strftime('%Y-%m-%d 00:00:00', :date) 
+    AND strftime('%Y-%m-%d 00:00:00', datetime(julianday(datetime(dc.end_date, 'unixepoch')) + (2.0 / 24.0), 'localtime')) >= strftime('%Y-%m-%d 00:00:00', :date)));

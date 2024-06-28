@@ -1,0 +1,17 @@
+stages:
+  - quality
+
+variables:
+  LC_ALL: "en_US.UTF-8"
+  LANG: "en_US.UTF-8"
+
+.macos_buildcloud_runners:
+  tags:
+    - shared-macos-amd64
+    - ios
+
+lint:
+  stage: quality
+  image: ghcr.io/cirruslabs/flutter:3.19.4
+  script:
+    - flutter analyze

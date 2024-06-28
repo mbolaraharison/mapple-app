@@ -1,0 +1,6 @@
+import 'tables/service_sub_families_table.dart';
+import 'tables/discount_codes_service_sub_families_table.dart';
+
+serviceSubFamiliesByDiscountId: SELECT ssf.* FROM service_sub_families AS ssf
+    JOIN discount_codes_service_sub_families AS dcssf ON dcssf.service_sub_family_id = ssf.id
+    WHERE dcssf.discount_code_id = :discountCodeId;

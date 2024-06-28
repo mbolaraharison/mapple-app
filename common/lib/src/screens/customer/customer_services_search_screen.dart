@@ -1,0 +1,35 @@
+import 'package:flutter/cupertino.dart';
+import 'package:easy_localization/easy_localization.dart';
+import 'package:maple_common/maple_common.dart';
+
+// Interface:-------------------------------------------------------------------
+abstract class CustomerServicesSearchScreenInterface implements Widget {
+  CustomerServicesSearchScreenArguments get arguments;
+}
+
+// Implementation:--------------------------------------------------------------
+class CustomerServicesSearchScreen extends StatelessWidget
+    implements CustomerServicesSearchScreenInterface {
+  const CustomerServicesSearchScreen({super.key, required this.arguments});
+
+  @override
+  final CustomerServicesSearchScreenArguments arguments;
+
+  // Lifecycle methods:---------------------------------------------------------
+  @override
+  Widget build(BuildContext context) {
+    return getIt<MainLayoutWidgetInterface>(
+      param1: MainLayoutProps(
+        headerWithBackButton: true,
+        headerTitle: 'services_search.title'.tr(),
+        child: Expanded(
+          child: getIt<ServicesSearchWidgetInterface>(
+            param1: ServicesSearchProps(
+              customerOrderStore: arguments.customerOrderStore,
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}

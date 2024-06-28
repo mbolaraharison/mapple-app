@@ -1,0 +1,4 @@
+enum HeaderMode {
+  dark,
+  light,
+}

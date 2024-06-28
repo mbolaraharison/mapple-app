@@ -1,0 +1,11 @@
+import 'tables/customers_table.dart';
+import 'tables/contacts_table.dart';
+
+customersByAddressOrByPhoneOrByEmail: SELECT DISTINCT c.* FROM customers AS c
+    JOIN contacts AS co ON co.customer_id = c.id
+    WHERE c.searchable_address in :fullAddresses
+    OR co.searchable_email in :emails
+    OR (co.searchable_phone <> '' AND (co.searchable_phone in :formattedPhones OR co.searchable_phone in :formattedMobilePhones))
+    OR (co.searchable_phone_with_code <> '' AND (co.searchable_phone_with_code in :formattedPhonesWithCode OR co.searchable_phone_with_code in :formattedMobilePhonesWithCode))
+    OR (co.searchable_mobile_phone <> '' AND (co.searchable_mobile_phone in :formattedPhones OR co.searchable_mobile_phone in :formattedMobilePhones))
+    OR (co.searchable_mobile_phone_with_code <> '' AND (co.searchable_mobile_phone_with_code in :formattedPhonesWithCode OR co.searchable_mobile_phone_with_code in :formattedMobilePhonesWithCode));

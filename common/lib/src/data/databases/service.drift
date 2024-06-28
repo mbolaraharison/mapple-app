@@ -1,0 +1,14 @@
+import 'tables/services_table.dart';
+import 'tables/service_sub_families_table.dart';
+import 'tables/service_families_table.dart';
+import 'tables/discount_codes_services_table.dart';
+
+servicesByDiscountId: SELECT s.* FROM services AS s
+    JOIN discount_codes_services AS dcs ON dcs.service_id = s.id
+    WHERE dcs.discount_code_id = :discountCodeId;
+
+activeServicesByFamilyId: SELECT s.* FROM services AS s
+    JOIN service_sub_families As ssf ON ssf.id = s.sub_family_id
+    JOIN service_families AS sf ON sf.id = ssf.family_id
+    WHERE sf.id = :familyId AND s.status = 1
+    ORDER BY s.label ASC;

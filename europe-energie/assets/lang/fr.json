@@ -1,0 +1,665 @@
+{
+  "brand_name": "Europe Energie",
+  "ok": "Ok",
+  "direct_sale": "Vente à domicile",
+  "fair": "Foire",
+  "cancel": "Annuler",
+  "close": "Fermer",
+  "clear": "Supprimer",
+  "next": "Suivant",
+  "back": "Retour",
+  "add": "Ajouter",
+  "finish": "Terminer",
+  "edit": "Modifier",
+  "address": "Adresse",
+  "postal_code": "Code postal",
+  "city": "Ville",
+  "search": "Rechercher",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "take_a_picture": "Prendre une photo",
+  "choose_from_library": "Choisir dans la bibliothèque",
+  "yes": "Oui",
+  "no": "Non",
+  "error": "Erreur",
+  "submit": "Valider",
+  "name": "Nom",
+  "is_default": "Définir comme par défaut",
+  "unit": {
+    "FOR": "Forfait"
+  },
+  "version": "Version",
+
+  "customer_type_title": "Type",
+  "customer_type_individual": "Particulier",
+  "customer_type_professional": "Professionnel",
+
+  "project_status_in_progress": "En cours",
+  "project_status_validated": "Validé",
+  "project_status_cancelled": "Annulé",
+
+  "customer_address": "Adresse",
+  "customer_how_did_you_know_us": "Comment le client a-t-il connu Europe Energie ?",
+
+  "civility_madam": "Madame",
+  "civility_mister": "Monsieur",
+  "civility_abbreviation_mister": "M.",
+  "civility_abbreviation_madam": "Mme.",
+
+  "contacts": "Contacts",
+  "contact_civility": "Civilité",
+  "contact_last_name": "Nom",
+  "contact_first_name": "Prénom",
+  "contact_phone": "Téléphone",
+  "contact_mobile_phone": "Mobile",
+  "contact_email": "E-mail",
+  "contact_last_name_is_empty": "Le nom est obligatoire.",
+  "contact_first_name_is_empty": "Le prénom est obligatoire.",
+  "contact_phone_is_empty": "Le téléphone est obligatoire.",
+  "contact_phone_is_invalid": "Le téléphone est invalide, il doit être au format 0123456789 ou +33123456789.",
+  "contact_mobile_phone_is_invalid": "Le téléphone mobile est invalide, il doit être au format 0123456789 ou +33123456789.",
+  "contact_email_is_empty": "L'email est obligatoire.",
+  "contact_email_is_invalid": "L'email est invalide.",
+  "contact_remove": "Supprimer le contact",
+  "contact_add": "Ajouter un contact",
+  "contact_edit": "Modifier un contact",
+  
+  "form_required": "Obligatoire",
+  "form_multiple_errors": "Plusieurs champs sont invalides.",
+
+  "error_title": "Erreur",
+  "error_user-not-found": "Utilisateur introuvable",
+  "error_wrong-password": "Mot de passe incorrect",
+
+  "login_title": "Mon compte",
+  "login_submit": "Se connecter",
+  "login_email_input_label": "Email",
+  "login_password_input_label": "Mot de passe",
+  "login_forgot_password": "Mot de passe oublié ?",
+
+  "home_title": "Accueil",
+  "home_create_project": "Créer un nouveau projet",
+  "home_pictures": "Photos",
+  "home_access_media": "Accéder aux médias",
+  "home_selected_agency": "Agence sélectionnée",
+  "home_selected_fair": "Foire sélectionnée",
+  "home_quick_access": "Accès rapide",
+  "home_annual_visits": "Visites annuelles",
+  "home_annual_visits_reminder": "Rappel",
+  "home_customer_list": "Liste des clients",
+  "home_customer_list_visit": "Consultez",
+  "home_catalog": "Book vendeur",
+  "home_catalog_view": "Visualisez",
+  "home_account_dialog_title": "Compte",
+  "home_account_dialog_direct_sale": "Vente à domicile",
+  "home_account_dialog_about": "À propos",
+  "home_account_dialog_logout": "Déconnexion",
+  "home_logout_dialog_title": "Se déconnecter",
+  "home_logout_dialog_content": "Voulez-vous vraiment vous déconnectez de l’application ?",
+  "home_create_project_dialog_title": "Nouveau projet",
+  "home_create_project_dialog_select_type": "Choisissez le type de projet.",
+  "home_create_project_dialog_create_customer": "Créez la fiche client.",
+  "home_create_project_dialog_customer_name_placeholder": "Nom du client",
+  "home_create_project_dialog_how_find_us": "Comment le client a-t-il connu Europe Energie ?",
+  "home_create_project_dialog_contacts": "Ajoutez un contact pour le suivi des chantiers.",
+  "home_create_project_dialog_add_contact": "Ajouter un contact",
+  "home_create_project_dialog_edit_contact": "Modifier un contact",
+
+  "customer": {
+    "notes": {
+      "no-data-found": "Aucune note trouvée",
+      "create": {
+        "title": "Créer une note",
+        "submit-button": "Créer",
+        "confirm-create": "Une note a été créée."
+      },
+      "edit": {
+        "title": "Modifier une note",
+        "submit-button": "Modifier",
+        "confirm-update": "Une note a été modifiée."
+      },
+      "delete": {
+        "title": "Supprimer une note",
+        "submit-button": "Supprimer",
+        "dialog-content": "Voulez-vous vraiment supprimer la note {title} ?",
+        "confirm-delete": "Une note a été supprimée."
+      },
+      "placeholder": {
+        "title": "Titre de la note",
+        "note": "Note"
+      }
+    }
+  },
+
+  "account": {
+    "title": "Compte",
+    "password": "Mot de passe",
+    "agency": "Agence",
+    "agencies": "Agences {brand}",
+    "fair": "Foires",
+    "infos": {
+      "title": "Informations du compte",
+      "name": "Nom",
+      "registration-number": "N° Matricule",
+      "phone": "N° Téléphone",
+      "email": "Adresse email",
+      "id": "Identifiant"
+    },
+    "edit-password": {
+      "title": "Modifier le mot de passe",
+      "current": "Actuel",
+      "new": "Nouveau",
+      "confirm": "Confirmer",
+      "submit-button": "Modifier"
+    }
+  },
+
+  "customer_list": {
+    "title": "Liste clients",
+    "header": {
+      "name": "NOM",
+      "address": "ADRESSE",
+      "postal_code": "CODE POSTAL",
+      "city": "VILLE",
+      "phone": "TÉLÉPHONE"
+    },
+    "location_disabled": "La localisation est nécessaire pour afficher la carte.",
+    "filters": {
+      "my_customers": "Mes clients",
+      "other_customers": "Autres clients"
+    }
+  },
+
+  "customer_label": "Client",
+  "rep_label": "Commercial",
+  "signature_label": "Signature",
+
+  "customer_view_title": "Fiche client",
+  "customer_view_edit_title": "Modifier les informations",
+  "customer_view_section_projects": "Projets",
+  "customer_view_section_notes": "Notes",
+  "customer_view_section_documents": "Documents",
+  "customer_view_maps_street_view": "Vue de la rue",
+  "customer_view_edit_contact_title": "Modifier les informations",
+
+  "business_monitoring_title": "Suivi commercial",
+
+  "library_title": "Bibliothèque",
+
+  "search_title": "Recherche",
+
+  "project": {
+    "current": "Projets en cours",
+    "list": {
+      "signed_at": "Date de signature",
+      "install_at": "Date de pose souhaitée",
+      "order_at": "Date de commande",
+      "payment_method": "Mode de paiement",
+      "services": "Prestations",
+      "total": "Montant global"
+    },
+    "view": {
+      "title": "Projet du {date}",
+      "company_presentation": "Présentation de l'entreprise",
+      "data": {
+        "meeting_origin": "Source du rendez-vous",
+        "house_age": "Âge de la maison",
+        "is_pro_premise": "Local pro",
+        "edit_title": "Modifier les informations"
+      },
+      "status": "Etat",
+      "signed_status": "Signé",
+      "date": "Date",
+      "media": {
+        "title": "Média",
+        "description": "Europe Energie en image"
+      },
+      "services": {
+        "title": "Prestations",
+        "description": "Préparation du devis"
+      },
+      "street_view": {
+        "title": "Vue de la rue",
+        "description": "Vue de la rue du projet"
+      },
+      "order_form": {
+        "title": "Bon de commande",
+        "description": "Visualisation et envoie"
+      },
+      "documents": {
+        "title": "Documents",
+        "description": "Visualisation des documents finis"
+      }
+    },
+    "add": {
+      "title": "Ajouter un projet"
+    },
+    "errors": {
+      "not-found": "Le projet n'a pas été trouvé ou n'existe plus."
+    }
+  },
+
+  "media": {
+    "title": "Média"
+  },
+
+  "services": {
+    "title": "Prestations",
+    "roofing": "Toiture",
+    "facade": "Façade",
+    "energy": "Énergie",
+    "insulation": "Isolation",
+    "options": {
+      "title": "Options",
+      "option1": "Option 1",
+      "option2": "Option 2"
+    },
+    "add_dialog": {
+      "add": "Ajouter",
+      "reduced_vat": "TVA réduite",
+      "tax": "TVA",
+      "quantity": "Quantité",
+      "options": "Options",
+      "option_label": "Choisissez l'option",
+      "option1_label": "1ère option",
+      "option2_label": "2ème option",
+      "package_unit": "FOR",
+      "total": "Total TTC",
+      "price_without_vat": "Prix HT",
+      "price_with_vat": "Prix TTC",
+      "confirm_add": "Une prestation a été ajoutée au panier.",
+      "no_energy_related_error": "Une prestation de catégorie Energie ne peut être ajoutée avec une prestation d'autres catégories.",
+      "no_energy_non_related_error": "Une prestation de catégorie autre que Energie ne peut être ajoutée avec une prestation de catégorie Energie."
+    }
+  },
+
+  "quote": {
+    "make": {
+      "title": "Générer un devis",
+      "description": "Génération du devis",
+      "submit-button": "Générer",
+      "installation_date": "Date de pose souhaitée"
+    }
+  },
+
+  "cart": {
+    "title": "Project {name}",
+    "order": "Commande",
+    "payment": "Règlement",
+    "signature": "Signature",
+    "detail_of_the_order": "Détail de la commande",
+    "total": "Total",
+    "total_services": "Total prestations",
+    "total_discounts": "Total remises",
+    "total_with_vat": "Total TTC",
+    "quantity": "Quantité",
+    "is_package_price": "(Forfait)",
+    "without_vat": "HT",
+    "with_vat": "TTC",
+    "vat": "TVA",
+    "discount": "Remise",
+    "edit_order_row": "Modifier",
+    "edit_order_row_confirm_message": "La prestation a été modifiée.",
+    "delete_service": "Supprimer",
+    "delete_discount": "Supprimer la remise",
+    "payment_method": "Mode de paiement",
+    "deposit": "Acompte (€)",
+    "deposit_error": "Le montant de l'acompte ne peut pas dépasser 30% du montant total.",
+    "deposit_placeholder": "00,00 € TTC",
+    "intermediate_payment": "Paiement intermédiaire",
+    "end_of_works_payment": "Paiement en fin de travaux",
+    "payment_placeholder": "00,00 € TTC",
+    "credit_amount": "Montant du crédit",
+    "nominal_rate": "Taux nominal (%)",
+    "nominal_rate_error": "Le taux nominal doit être compris entre 0 et 100 %.",
+    "number_of_monthly_payments": "Nombre de mensualités",
+    "number_of_monthly_payments_placeholder": "0 mois",
+    "apr": "TAEG (%)",
+    "apr_error": "Le TAEG doit être compris entre 0 et 100 %.",
+    "total_cost_of_credit": "Coût total du crédit (€)",
+    "type_of_insurance": "Type d'assurance",
+    "amount_with_vat": "{amount} TTC",
+    "percentage_placeholder": "0 %",
+    "amount_of_monthly_payments": "Montant des mensualités (€)",
+    "deferment": "Report",
+    "accept_the_terms": "Accepter les CGV",
+    "terms_document": "Signature CGV",
+    "terms_document_instruction": "Veuillez recopier ce texte à la main et prendre une photo de celui-ci pour confirmer la signature : \"Lu et approuvé, bon pour accord - Nom / Prénom\"",
+    "customer_signatures": "Signatures des clients",
+    "sales_representatives_signatures": "Signatures des commerciaux",
+    "terms": "CGV",
+    "accept": "Accepter",
+    "acceptance_dematerialization": "En cochant cette case, j’accepte la dématérialisation du bon de commande",
+    "acceptance_terms": "En cochant cette case, je reconnais avoir pris connaissance des conditions générales de vente ci-dessus et j’en accepte les termes et les conditions",
+    "discounts_dialog": {
+      "title": "Remises",
+      "select_services": "Sélectionnez une ou plusieurs prestations sur lesquelles appliquer la remise.",
+      "description": "Description",
+      "amount": "Montant",
+      "discount": "Remise",
+      "discounted_amount": "Montant remisé",
+      "total_with_vat": "Total TTC",
+      "type_label": "Type",
+      "type_choices": {
+        "commercial_advantage": "Avantage commercial (%)",
+        "discount_code": "Code remise"
+      },
+      "discount_code_value": "Remise applicable",
+      "errors": {
+        "commercial_advantage": "L'avantage commercial doit être compris entre 0 et 5 %.",
+        "discount_code_invalid": "Le code remise est invalide."
+      }
+    },
+    "finalization": {
+      "title": "Finalisation",
+      "customer_signatory": "Signataires clients",
+      "rep_signatory": "Signataires commerciaux",
+      "dates": {
+        "title": "Choix des dates",
+        "order_date": "Date de commande",
+        "installation_date": "Date de pose souhaitée",
+        "project_end_date": "Date de fin de chantier"
+      },
+      "total": "Total du projet",
+      "keep_equipments": "Conserver les pièces, éléments ou appareils remplacés"
+    },
+    "delete-item": {
+      "title": "Supprimer une prestation",
+      "dialog-content": "Voulez-vous vraiment supprimer la prestation {name} ?"
+    },
+    "vat_certificate": {
+      "title": "Attestation de TVA",
+      "description": "Veuillez prendre en photo l'attestation de TVA complété et signé."
+    },
+    "errors": {
+      "signature_failed": "Une erreur est survenue lors de la signature du bon de commande. Veuillez réessayer ou contacter votre administrateur."
+    },
+    "success_notification": "Le bon de commande a été signé avec succès. La commande est désormais en attente de validation."
+  },
+
+  "signing_method": {
+    "paper": "Papier",
+    "electronic": "Électronique"
+  },
+
+  "origin": {
+    "title": "Source",
+    "customer_contact": "Contact client",
+    "canvassing": "Démarchage",
+    "fair_gallery": "Foire et Galerie",
+    "lead": "Lead"
+  },
+
+  "origin_details": {
+    "previous_customer": "Ancien client",
+    "word_of_mouth": "Bouche à oreille",
+    "physical_canvassing": "Démarchage physique",
+    "telephone_canvassing": "Démarchage téléphonique",
+    "annual_free_visit": "Visite annuelle et Gratuite",
+    "external_fair": "Foire externe",
+    "main_fair": "Foire principale",
+    "gallery": "Galerie",
+    "lead": "Lead",
+    "shop": "Magasin",
+    "direct_mailing": "Publipostage",
+    "ads": "Publicité (Presse, TV, Radio)",
+    "fair_addition": "Rajout foire",
+    "social_networks": "Réseaux sociaux",
+    "website": "Site internet"
+  },
+
+  "tax_system": {
+    "cee": "CEE",
+    "cpi": "Prest. Immatérielles (259B)",
+    "dom_tom": "DOM/TOM",
+    "export": "Export",
+    "france": "France",
+    "tax_suspension": "Suspension de taxe"
+  },
+
+  "payment_terms": {
+    "credit_card": "Carte bancaire",
+    "cetelem": "Fi CETELEM",
+    "check1": "Chèque 1x",
+    "check2": "Chèque 2x",
+    "check3": "Chèque 3x",
+    "domofinance": "Fi DOMOFINANCE",
+    "financo": "Fi FINANCO",
+    "cash": "Espèces",
+    "bank_transfer": "Virement",
+    "sofinco": "Fi SOFINCO",
+    "fi": "Fi"
+  },
+
+  "sync_status": {
+    "not_ready": "Non synchronisé",
+    "ready_for_create": "Prêt à être créé",
+    "queued_for_create": "En attente de création",
+    "ready_for_update": "Prêt à être mis à jour",
+    "queued_for_update": "En attente de mise à jour",
+    "create_failed": "Échec de la création",
+    "update_failed": "Échec de la mise à jour",
+    "locked": "Verrouillé",
+    "ok": "Synchronisé",
+    "customer_not_ok": "Client non synchronisé",
+    "order_not_ok": "Commande non synchronisée"
+  },
+
+  "file_data_mode": {
+    "local": "Local",
+    "remote": "Distant"
+  },
+
+  "envelopes": {
+    "order_subject": "Bon de commande"
+  },
+
+  "insurance_type": {
+    "none": "Sans assurance",
+    "death_disability_illness": "Assurance option DIM (Décès - Invalidité - Maladie)",
+    "death_disability_illness_unemployment": "Assurance option DIMC (Décès - Invalidité - Maladie - Chômage)",
+    "death_disability_illness_retirement": "Assurance option DIM+D (Décès - Invalidité - Maladie - Inactif +55 ans)",
+    "death": "Assurance option D (Décès)",
+    "death_disability": "Assurance option DI (Décès - Invalidité)"
+  },
+
+  "deferment": {
+    "thirty_days": "30 jours",
+    "sixty_days": "60 jours",
+    "ninety_days": "90 jours",
+    "one_hundred_twenty_days": "120 jours",
+    "one_hundred_eighty_days": "180 jours"
+  },
+
+  "funding_status": {
+    "under_review": "A l'étude",
+    "approved": "Validé",
+    "released": "Débloqué",
+    "none": "Pas de financement"
+  },
+
+  "order_status": {
+    "pending_approval": "En attente de validation",
+    "progress": "En cours",
+    "suspended": "Suspendu",
+    "cancelled": "Annulé",
+    "completed": "Terminé",
+    "quote_in_progress": "Devis en cours"
+  },
+
+  "order_type": {
+    "fair": "Commande Vente Foire",
+    "shop": "Commande Magasin",
+    "direct": "Commande Vente à Domicile"
+  },
+
+  "project_document_type": {
+    "order_form": "Bon de commande",
+    "terms_approval": "Signature des CGVs",
+    "vat_certificate": "Attestation de TVA"
+  },
+
+  "tax_level": {
+    "nor": "TVA 20%",
+    "red": "TVA 5.5%",
+    "red10": "TVA 10%",
+    "exo": "Exonéré"
+  },
+
+  "price_label": {
+    "ht": "HT",
+    "ttc": "TTC",
+    "vat": "TVA",
+    "total_ttc": "Total TTC"
+  },
+
+  "quote_form": {
+    "quote_form_number": "Devis N°{number}",
+    "signature_before_acceptance": "Case réservée avant acceptation du devis",
+    "signature_after_acceptance": "Case réservée au moment de l'acceptation du devis par le client",
+    "company_signature": "Signature Société",
+    "customer_signature": "Signature Client",
+    "read_and_approved": "Précédée de la mention « Lu et approuvé, bon pour accord »",
+    "accept_the_terms": "Je reconnais avoir pris connaissance des conditions générales de vente inscrites au verso du présent devis et j'en accepte les termes et les conditions.",
+    "cancellation_form": {
+      "title": "ANNULATION DE COMMANDE"
+    }
+  },
+
+  "order_form": {
+    "phone_with_label": "Téléphone : {phone}",
+    "mobile_phone_with_label": "Mobile : {mobilePhone}",
+    "mail_with_label": "Mail : {mail}",
+    "agency_siret": "SIRET : {siret}",
+    "order_form_number": "Bon de commande {number}",
+    "no_right_of_withdrawal_for_fair": "Le consommateur ne bénéficie pas d'un droit de rétractation pour un achat effectué dans une foire ou dans un salon.",
+    "customer_details": "Coordonnées du client",
+    "customer_site_details": "Coordonnées du chantier (si différent)",
+    "seller_details": "Techniciens / Conseillers-vendeurs",
+    "order_detail": "Détail de la commande",
+    "headers": {
+      "product": "Produit",
+      "product_code": "Code produit",
+      "description": "Description",
+      "qty": "Qté",
+      "unity": "Unité",
+      "price_without_tax": "PU HT",
+      "total_without_tax": "Total HT",
+      "tax_rate": "Taux TVA",
+      "tax_amount": "Total TVA",
+      "total_with_tax": "Total TTC",
+      "discount": "Remise",
+      "discounted_amount": "Prix remisé"
+    },
+    "without_tax": "HT",
+    "with_tax": "TTC",
+    "tax": "TVA {rate}%",
+    "total_to_be_paid": "Total à régler",
+    "terms_of_payment": "Modalités de paiement",
+    "deposit": "Acompte : ",
+    "funder": "Financeur : ",
+    "funding": "Financement",
+    "intermediate_payment": "Paiement intermédiaire : ",
+    "end_of_works_payment": "Paiement en fin de travaux : ",
+    "credit_amount":"Montant du crédit : ",
+    "nominal_rate":"Taux nominal : ",
+    "monthly_payments_count": "Nombre de mensualités : ",
+    "apr": "TAEG : ",
+    "credit_total_cost": "Coût total du crédit : ",
+    "insurance": "Type d'assurance : ",
+    "monthly_payment_amount": "Montant des mensualités : ",
+    "deferment": "Report : ",
+    "consulting_technician": "Technicien conseil {number}",
+    "date_of_order": "Date de la commande",
+    "desired_installation_date": "Date de pose souhaitée",
+    "deadline_date": "Date limite de fin de chantier",
+    "keep_old_stuff": "Souhaitez-vous conserver les pièces, éléments ou appareils remplacés ?",
+    "accept_the_terms": "Je reconnais avoir pris connaissance des conditions générales de vente inscrites en annexe du présent bon de commande et j’en accepte les termes et les conditions.",
+    "accept_the_dematerialization": "J'accepte la dématérialisation du bon de commande.",
+    "done_at": "Fait à {place} le {date}.",
+    "co_contractor": "Cocontractant.e {number} :",
+    "contractor": "Contractant.e :",
+    "cancellation_form": {
+      "first_instruction": "Veuillez compléter et renvoyer le présent formulaire uniquement si vous souhaitez vous rétracter du contrat.",
+      "title": "ANNULATION COMMANDE N°{number}",
+      "second_instruction": "Veuillez compléter et expédier le présent formulaire (uniquement si vous souhaitez vous rétracter du contrat) au plus tard le quatorzième jour après le jour de la conclusion du contrat, ou si ce délai expire normalement un samedi, un dimanche ou un jour férié chômé, le premier jour ouvrable suivant.",
+      "for_the_attention_of": "A l’attention de",
+      "siret_ape": "Siret : {siret} - APE : {ape}",
+      "to_complete": "Je/nous (*) vous notifie/notifions (*) par la présente de ma/notre\n(*) rétractation du contrat portant sur la vente du bien (*)/pour la\nprestation de services (*) ci-dessous :\nCommandé le (*)/reçu le (*) :\nNom du (des) consommateur(s) :\nAdresse du (des) consommateur(s) :",
+      "signature": "Signature du (des) consommateur(s) (uniquement en cas de\nnotification du présent formulaire sur papier) :\nDate :",
+      "delete_as_appropriate": "(*) Rayez la mention inutile."
+    },
+    "terms": {
+      "title": "CONDITIONS GÉNÉRALES DE VENTE"
+    } 
+  },
+
+  "discount_codes": {
+    "title": "Codes remise",
+    "discount_code_value": "Code remise {value}",
+    "global": "Global" ,
+    "subject": {
+      "family": "Famille(s): ",
+      "sub_family": "Sous-famille(s): ",
+      "service": "Prestation(s): "
+    },
+    "validity": "Valable du {startDate} au {endDate}",
+    "save_dialog": {
+      "create_title": "Créer un code remise",
+      "edit_title": "Modifier un code remise",
+      "view_title": "Code remise",
+      "discount_percentage_label": "Remise (%)",
+      "code_label": "Code",
+      "expiration_label": "Aucune date d'expiration",
+      "start_date_label": "Date de début",
+      "end_date_label": "Date de fin",
+      "warning_global_code": "Ce code est global. Il est donc non modifiable et non supprimable.",
+      "remove": "Supprimer le code remise"
+    },
+    "errors": {
+      "code_already_exists": "Ce code existe déjà."
+    } 
+  },
+
+  "auth": {
+    "reset_password_dialog": {
+      "title": "Mot de passe oublié",
+      "instruction": "Renseigne ton email.",
+      "send": "Envoyer",
+      "success": "Un email de réinitialisation de mot de passe a été envoyé à l'adresse {email}."
+    },
+    "reset_password_screen": {
+      "title": "Réinitialisation du mot de passe",
+      "submit": "Réinitialiser",
+      "password_label": "Mot de passe",
+      "confirm_password_label": "Confirmation du mot de passe",
+      "success": "Le mot de passe a été réinitialisé avec succès."
+    },
+    "errors": {
+      "expired_action_code": "Le lien de réinitialisation de mot de passe a expiré.",
+      "invalid_action_code": "Le lien de réinitialisation de mot de passe est invalide.",
+      "user_disabled": "L'utilisateur a été désactivé.",
+      "user_not_found": "L'utilisateur n'existe pas.",
+      "missing_email": "L'email est manquant.",
+      "invalid_email": "L'email est invalide.",
+      "weak-password": "Le mot de passe doit contenir au moins 8 caractères, dont une majuscule, une minuscule, un chiffre et un caractère spécial.",
+      "unauthorized": "L'utilisateur n'est pas autorisé à se connecter à l'application.",
+      "synchro_error": "Une erreur est survenue lors de la synchronisation des données, veuillez contacter votre administrateur."
+    }
+  },
+
+  "role": {
+    "confirmed_sales_rep": "Commercial confirmé",
+    "fair_sales_rep": "Commercial Foire",
+    "agency_director": "Directeur agence",
+    "agency_animator": "Animateur agence",
+    "regional_animator": "Animateur région",
+    "junior_sales_rep": "Commercial junior"
+  },
+
+  "image_picker": {
+    "errors": {
+      "cannot_load_image": "Impossible de charger l'image"
+    }
+  }
+}

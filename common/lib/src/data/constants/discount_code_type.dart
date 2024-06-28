@@ -1,0 +1,4 @@
+enum DiscountCodeType {
+  percentage,
+  fixedAmount,
+}

@@ -1,0 +1,44 @@
+# This file contains the fastlane.tools configuration
+# You can find the documentation at https://docs.fastlane.tools
+#
+# For a list of all available actions, check out
+#
+#     https://docs.fastlane.tools/actions
+#
+# For a list of all available plugins, check out
+#
+#     https://docs.fastlane.tools/plugins/available-plugins
+#
+
+# Uncomment the line if you want fastlane to automatically update itself
+# update_fastlane
+
+default_platform(:ios)
+
+platform :ios do
+  before_all do
+    ENV["SPACESHIP_2FA_SMS_DEFAULT_PHONE_NUMBER"] = "+33 6 42 01 12 44"
+
+    app_store_connect_api_key(
+      key_id: "KDBGPZ6J69",
+      issuer_id: "f505f50b-93f2-4600-859c-418dde06aa46",
+      key_content: "-----BEGIN PRIVATE KEY-----\nMIGTAgEAMBMGByqGSM49AgEGCCqGSM49AwEHBHkwdwIBAQQgpViUcR2BA7khkViD\n10oiWrkPux8jexzzz0DjldGzPkigCgYIKoZIzj0DAQehRANCAATx/JvAKe9N+BZb\nxBSZiEGDpZsux1p1EpoYrIV3IcjnDHR084IQEzrjQicC7pTtlCCfXUrI3+CioLF5\nmgD9Bjjn\n-----END PRIVATE KEY-----"
+    )
+  end
+
+  lane :beta do
+    desc "Push a new release build to the TestFlight"
+
+    # Update profiles
+    match({
+      readonly: true,
+      type: "appstore"
+    })
+
+    # Creates a signed file
+    gym
+
+    # Upload to TestFlight
+    pilot
+  end
+end
